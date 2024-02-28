@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+<link rel="icon" href="../../images/favicon.ico" type="image/x-icon" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<title>AXA Design System Lib Documentation v1.0.0</title>
+
+
+
+<script
+  type="text/javascript"
+  src="https://cdn.cookielaw.org/consent/1e50b4fb-de4c-448e-975b-14132c7fc3a5/OtAutoBlock.js"
+></script>
+
+
+<script type="text/javascript">
+  function OptanonWrapper() {}
+</script>
+
+    
+<link href="../../scss/index.css" rel="stylesheet"><link href="../../scss/axaDesignSystemFonts.css" rel="stylesheet">
+
+ 
+<link href="../../scss/axaIconFont.css" rel="stylesheet">
+  
+ 
+<link href="../../css/prism.css" rel="stylesheet">
+
+<style>
+    .components-page .items-number {
+        position : absolute ; 
+        top : 0 ; 
+        right : 0 ; 
+        font-weight: 600;
+        color: #757575;
+    }
+
+    .components-page .component-img {
+      width : 100%
+    }
+
+    .components-page .card-title {
+        font-family: 'Publico Headline';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+    }
+
+    .components-page .shadowbox {
+        transition: box-shadow .3s;  
+        border-radius:10px; 
+        background: #fff;
+        float: left;
+  
+    }
+    .components-page .shadowbox a {
+      color : inherit;
+    }
+    .components-page .shadowbox p {
+      font-weight:600
+    }
+    p{
+      margin-bottom: 32px;
+    }
+    .btn-copy{
+      float:right;
+       
+      cursor: pointer;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 16px;
+      text-transform: uppercase;
+      font-family: 'Source Sans Pro';
+    }
+
+</style>
+</head>
+
+<body>
+    <div class="ax-example p-md-0 navbar-header">
+    <ul  id="skiplink-nav"  tabIndex={1} class="skiplink-nav-hide" >
+      <li class="skiplink"  ><a  class="skiplinkTitle" id= "skiplink1" href="#content"> Content</a></li>
+      <li class= "skiplink" ><a  class="skiplinkTitle" href="#nav-individuals"> Menu</a></li>
+      <li class="skiplink" ><a  class="skiplinkTitle" href='#navbar-desktop'> Component List</a></li>
+
+    </ul>
+  <div class="navbar-metaheader mx-auto d-none d-lg-flex">
+    <div class="container m-auto row px-0 d-flex">
+      <div class="col-5 d-none d-lg-flex d-print-block"></div>
+      <div class="col-7 d-none d-lg-flex d-print-block flex-row-reverse">
+        <a href="https://worldwidenews-axa.com/" target="_blank" rel="noopener noreferrer"
+          class="h5 ms-3 my-auto px-3 text-dark">NEWSLETTER HUB</a><span class="nav-sep">|</span><a
+          href="https://brandhub.axa.com/login/" target="_blank" rel="noopener noreferrer"
+          class="h5 mx-3 my-auto px-3 text-dark">BRANDHUB</a>
+      </div>
+    </div>
+  </div>
+  <nav class="container-fluid container-lg navbar navbar-expand-lg navbar-light px-1"
+    style="z-index: 10; position: relative">
+    <a class="navbar-brand" href="../../../../"></a>
+
+    <div id="currentnav" class=" responsiveNav d-lg-none">
+      <form  id="formSearchRes"class="navbar4-multiCollapse form-search collapse   mx-0 collapse  toggle-close ">
+        <div class="input-group mx-auto">
+          <input id="search-input-res" class="form-control  d-xxxl-block" placeholder="I'm looking for..."
+            aria-label="Search" />
+          <button class="btn btn-search  d-xxxl-block" type="button"></button>
+        </div>
+      </form>
+      <div>
+        <span class="navbar-search-toggler pe-5 ">
+          <button id=nav-search-button-res class="btn collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target=".navbar4-multiCollapse,#inputsearch" aria-controls="inputsearch" aria-expanded="false"
+            aria-label="Toggle search form" >
+            <span class="navbar-search-toggler-icon" id="CloseDropDown"></span>
+          </button>
+        </span>
+      </div>
+      <div id = "toggle-nav">
+      <button id="nav-burger"
+        class="nav-menu-responsifShw    header-fixed navbar-toggler ps-3 ms-0 position-absolute collapse show"
+        type="button" data-bs-toggle="collapse" data-bs-target=".nav-menu-responsifShw, #navbarDropdownShw"
+        aria-controls="navbarDropdownShw navbar4_searchForm navbar4_buttonsForm" aria-expanded="false"
+        aria-label="Toggle navigation" style="top: 22px ;right: 2px;">
+        <span class="navbar-toggler-icon"></span></button>
+        
+        <button id="nav-close"
+        class="nav-menu-responsifShw  header-fixed navbar-toggler collapsed ps-3 ms-0 position-absolute collapse"
+        type="button" data-bs-toggle="collapse-all" data-bs-target=".nav-menu-responsifShw, #navbarDropdownShw"
+        aria-controls="navbarDropdownShw" aria-expanded="false" aria-label="Toggle navigation"
+        style="top: 19px ;right: 2px;">
+        <i class="icon-close fs-xl"></i>
+      </button>
+    </div>
+    </div>
+
+    <div class="navbar-collapse  d-lg-none header-collapse toggle-close collapse" id="navbarDropdownShw" style="z-index: 3">
+      <div class="tab-content navbar-header-dropdown" id="nav-tabContent">
+        <div class="tab-content" id="myTabContent" data-bs-toggle="tab-drop">
+          <div class="tab-pane show active nav-individuals" id="nav-individuals" role="tabpanel"
+            aria-labelledby="nav-individuals-tab">
+
+
+            <ul
+              class="nav nav-tabs navbar-nav search-collapse  navbar4-multiCollapse  show text-uppercase me-0 m-auto flex-nowrap"
+              id="TabIndividuals" role="tablist">
+              <li class="nav-item" role="presentation">
+                <a class="nav-link reverse-tab d-flex justify-content-between w-100" id="individualProfile-tab"
+                  href="../../../../design">DESIGN<i class="d-block d-lg-none icon-east float-sm-end pe-4"></i></a>
+              </li>
+              <li class="nav-item" role="presentation">
+                <a class="nav-link reverse-tab d-flex justify-content-between w-100" id="individualGallery-tab"
+                  href="../../../../development">DEVELOPMENT<i class="d-block d-lg-none icon-east float-sm-end pe-4"></i></a>
+              </li>
+              <li class="nav-item" role="presentation">
+                <a class="nav-link reverse-tab d-flex justify-content-between w-100 active"
+                  id="individualCOMPONENTS-tab" href="../../getting-started/overview/">COMPONENTS<i
+                    class="d-block d-lg-none icon-east float-sm-end pe-4"></i></a>
+              </li>
+              <li class="nav-item" role="presentation">
+                <a class="nav-link reverse-tab d-flex justify-content-between w-100" id="individualINSIGHT-tab"
+                  href="../../../../insight">INSIGHT<i class="d-block d-lg-none icon-east float-sm-end pe-4"></i></a>
+              </li>
+              <li class="nav-item" role="presentation">
+                <a class="nav-link reverse-tab d-flex justify-content-between w-100 text-nowrap"
+                  id="individualHELP-CONTACT-tab" href="../../../../contact">HELP &amp; CONTACT<i
+                    class="d-block d-lg-none icon-east float-sm-end pe-4"></i></a>
+              </li>
+            </ul>
+
+
+          </div>
+
+
+          <ul class="ps-0 navbar-nav me-0 m-auto gray-100">
+            <li class="nav-item d-block d-lg-none">
+              <a href="https://brandhub.axa.com/login/" target="_blank" rel="noopener noreferrer"
+                class="h4 mb-0 nav-link text-dark py-3">BRANDHUB</a>
+            </li>
+            <li class="nav-item d-block d-lg-none">
+              <a href="https://worldwidenews-axa.com/" target="_blank" rel="noopener noreferrer"
+                class="h4 mb-0 nav-link text-dark py-3">NEWSLETTER HUB</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <form  id="formSearch" class="navbar4-multiCollapse form-search collapse  mx-0 collapse  toggle-close ">
+        <div class="input-group mx-auto">
+          <input  id="search-input"  class="form-control  d-xxxl-block" placeholder="I'm looking for..." aria-label="Search" />
+          <button class="btn btn-search  d-xxxl-block" type="button"></button>
+        </div>
+      </form>
+      <div class="d-none d-lg-block">
+        <span class="navbar-search-toggler ">
+          <button  id=nav-search-button class="btn collapsed"  type="button" data-bs-toggle="collapse" data-bs-target=".navbar4-multiCollapse"
+            aria-controls="navbar4_searchForm navbar4_buttonsForm" aria-expanded="false" aria-label="Toggle search form"
+            >
+            <span class="navbar-search-toggler-icon" id="CloseDropDown"></span>
+          </button>
+        </span>
+      </div>
+  </nav>
+
+
+  <div class="dropdown d-block d-lg-none navbar-header col-12 ">
+    <button class="btn dropdown-toggle w-100 p-3 shaddow_button design_placeholderMenu" type="button"
+      id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="
+        text-transform: none;
+        text-align: left;
+        font-size: 1rem;
+        letter-spacing: 0px;
+        font-weight: 400;
+        font-family: Source Sans Pro, sans-serif;
+      ">
+      Input-group <i class="icon-expand_more"></i>
+    </button>
+    <div class="dropdown dropdown-menu w-100" aria-labelledby="dropdownMenuButton" id="dropdown-menu-documentation"
+      style="overflow-y: scroll;
+      overflow-x: hidden;
+      height: 83vh;">
+
+    </div>
+  </div>
+</div>
+<div>
+  <div id="searchResultBlock" class="search-result-block" >
+    <div  class="search-result-not-found">
+      <p>
+        We couldn’t find anything that matched your searched term
+      </p>
+    </div>
+    <div  class="search-result-found">
+      <ul class="list-group list-group-flush">
+            <li class="list-group-item" id="result-pages">
+              <p class="result-title">PAGES</p>
+              <div>
+              </div>
+            </li>
+            <li class="list-group-item" id="result-components">
+              <div>
+                <p class="result-title">COMPONENTS</p>
+              </div>
+            </li>
+  
+            <li class="list-group-item" id="result-designs">
+              <div>
+                <p class="result-title">Brand guidelines</p>
+              </div>
+            </li>
+  
+            <li class="list-group-item" id="result-articles">
+              <div>
+                <p class="result-title">Insights</p>
+              </div>
+            </li>
+        </ul>
+    </div>
+  </div>
+</div>
+
+
+<div class="navbar-mask" style="z-index: 1;">
+</div>
+    <div class="container-fluid">
+        <div class="row position-relative">
+            
+ 
+<div
+  class="d-lg-block d-none col-4 col-lg-3 ax-overflow-height border-end overflow-auto ax-left-side"
+  style="position: sticky;top: 97px;"
+  onload="getAllDocuments()"
+>
+  <div class="d-flex flex-column ax-left-menu">
+    <h1 class="ps-4 pt-8">Documentation </h1>
+    <div class="ax-versions">
+      <div class="dropdown ps-4 pe-4">
+        <button
+          class="btn btn-outline-light dropdown-toggle"
+          id="bd-versions"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+          data-bs-display="static"
+        >
+          Version v1.0
+        </button>
+        <ul
+          class="dropdown-menu dropdown-menu-end"
+          aria-labelledby="bd-versions"
+        >
+          <li>
+            <a
+              onclick="window.location.href='../../'"
+              class="dropdown-item current"
+              aria-current="true"
+              >Latest (1.0.x)</a
+            >
+          </li>
+          <li><hr class="dropdown-divider" /></li>
+          <li>
+            <a onclick="window.location.href='../../../../docs/v0.1'" class="dropdown-item"
+              >v0.1.x</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <nav class="pt-6 d-flex flex-column nav" id="navbar-desktop">
+        
+    </nav>
+  </div>
+</div>
+
+            <div class="overflow-auto  px-0 col-12 col-lg-9">
+                <div class="tab-content">
+                     
+ <div class="container-lib m-auto px-5 pt-7 ">
+    <h3 class="text-muted" >Forms </h3>
+    <h1 class="display-3 py-3 text-capitalize w-50" id="titlecomponent"> </h1>
+</div>
+ 
+
+
+<ul class="nav h3 w-100 border-top mb-6">
+    <li class="nav-item w-50">
+        <a class="nav-link" id="selection_input-group-guidelines" href="#" onclick="displayGuidelines('input-group')">Design guidelines</a>
+    </li>
+    <li class="nav-item w-50">
+        <a class="nav-link active" id="selection_input-group-tech" href="#" onclick="displayTechDoc('input-group')">Implementation</a>
+    </li> 
+</ul>
+
+
+
+<div class="col-md-9" id="content">
+
+    <div id="foundations_input-group-tech" class="px-5 container-lib m-auto"> 
+        <p class="lead"> A specific category of input forms which improve the readability by adding directly the label, button, or button group as a “help text”, at the same level that the form itself.</p>
+         
+         <div class="display-5 pt-md-8 pb-1">Basic example</div>
+<div class="ax-example p-md-3 border">
+  <div class="input-group mb-3">
+    <span class="input-group-text" id="basic-addon1">@</span>
+    <input
+      type="text"
+      class="form-control"
+      placeholder="Username"
+      aria-label="Username"
+      aria-describedby="basic-addon1"
+    />
+  </div>
+  <div class="input-group mb-3">
+    <input
+      type="text"
+      class="form-control"
+      placeholder="Recipient's username"
+      aria-label="Recipient's username"
+      aria-describedby="basic-addon2"
+    />
+    <span class="input-group-text" id="basic-addon2"
+      >@example.com</span
+    >
+  </div>
+  <div class="input-group mb-3">
+    <span class="input-group-text">$</span>
+    <input
+      type="text"
+      class="form-control"
+      aria-label="Amount (to the nearest dollar)"
+    />
+    <span class="input-group-text">.00</span>
+  </div>
+  <div class="input-group">
+    <span class="input-group-text">With textarea</span>
+    <textarea
+      class="form-control"
+      aria-label="With textarea"
+    ></textarea>
+  </div>
+</div>
+<div class="pb-4">
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;input-group mb-3&#34;</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">span</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;input-group-text&#34;</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;basic-addon1&#34;</span><span class="p">&gt;</span>@<span class="p">&lt;/</span><span class="nt">span</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">input</span>
+</span></span><span class="line"><span class="cl">    <span class="na">type</span><span class="o">=</span><span class="s">&#34;text&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-control&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="na">placeholder</span><span class="o">=</span><span class="s">&#34;Username&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="na">aria-label</span><span class="o">=</span><span class="s">&#34;Username&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="na">aria-describedby</span><span class="o">=</span><span class="s">&#34;basic-addon1&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">/&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;input-group&#34;</span> <span class="na">mb-3</span><span class="err">”</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">input</span>
+</span></span><span class="line"><span class="cl">    <span class="na">type</span><span class="o">=</span><span class="s">&#34;text&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-control&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="na">placeholder</span><span class="o">=</span><span class="s">&#34;Recipient’s&#34;</span> 
+</span></span><span class="line"><span class="cl">    <span class="na">aria-label</span><span class="o">=</span><span class="s">&#34;Recipient’s&#34;</span> 
+</span></span><span class="line"><span class="cl">    <span class="na">aria-describedby</span><span class="o">=</span><span class="s">&#34;basic-addon2&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">/&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">span</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;input-group-text&#34;</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;basic-addon2&#34;</span><span class="p">&gt;</span>@example.com<span class="p">&lt;/</span><span class="nt">span</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;input-group&#34;</span> <span class="na">mb-3</span><span class="err">”</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">span</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;input-group-text&#34;</span><span class="p">&gt;</span>$<span class="p">&lt;/</span><span class="nt">span</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">“text”</span> <span class="na">class</span><span class="o">=</span><span class="s">“form-control”</span> <span class="na">aria-label</span><span class="o">=</span><span class="s">“Amount</span> <span class="err">(</span><span class="na">to</span> <span class="na">the</span> <span class="na">nearest</span>
+</span></span><span class="line"><span class="cl">  <span class="na">dollar</span><span class="err">)&#34;</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">span</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;input-group-text&#34;</span><span class="p">&gt;</span>.00<span class="p">&lt;/</span><span class="nt">span</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;input-group&#34;</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">span</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;input-group-text&#34;</span><span class="p">&gt;</span>With textarea<span class="p">&lt;/</span><span class="nt">span</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">textarea</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-control&#34;</span> <span class="na">aria-label</span><span class="o">=</span><span class="s">&#34;With&#34;</span> <span class="na">textarea</span><span class="err">”</span><span class="p">&gt;&lt;/</span><span class="nt">textarea</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</span></span></code></pre></div></div>
+<!-- #endregion components_input_group - basic example -->
+<!-- #region components_input_group - sizing -->
+<div class="display-5 pt-md-8 pb-1">Sizing</div>
+<p class="text-justify pe-md-8 pe-lg-11 pb-3">
+  You can vary the sizes to make your form elements responsive.
+</p>
+<div class="ax-example p-md-3 border">
+  <div class="input-group input-group-sm mb-3">
+    <span class="input-group-text" id="inputGroup-sizing-sm"
+      >Small</span
+    >
+    <input
+      type="text"
+      placeholder="Placeholder"
+      class="form-control"
+      aria-label="Sizing example input"
+      aria-describedby="inputGroup-sizing-sm"
+    />
+  </div>
+  <div class="input-group mb-3">
+    <span class="input-group-text" id="inputGroup-sizing-default"
+      >Default</span
+    >
+    <input
+      type="text"
+      placeholder="Placeholder"
+      class="form-control"
+      aria-label="Sizing example input"
+      aria-describedby="inputGroup-sizing-default"
+    />
+  </div>
+  <div class="input-group input-group-lg">
+    <span class="input-group-text" id="inputGroup-sizing-lg"
+      >Large</span
+    >
+    <input
+      type="text"
+      placeholder="Placeholder"
+      class="form-control"
+      aria-label="Sizing example input"
+      aria-describedby="inputGroup-sizing-lg"
+    />
+  </div>
+</div>
+<div class="pb-4">
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;input-group input-group-sm mb-3&#34;</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">span</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;input-group-text&#34;</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;inputGroup-sizing-sm&#34;</span><span class="p">&gt;</span>Small<span class="p">&lt;/</span><span class="nt">span</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">input</span>
+</span></span><span class="line"><span class="cl">    <span class="na">type</span><span class="o">=</span><span class="s">&#34;text&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="na">placeholder</span><span class="o">=</span><span class="s">&#34;Placeholder&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-control&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="na">aria-label</span><span class="o">=</span><span class="s">&#34;Sizing example input&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="na">aria-describedby</span><span class="o">=</span><span class="s">&#34;inputGroup-sizing-sm&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">/&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;input-group&#34;</span> <span class="na">mb-3</span><span class="err">”</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">span</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;input-group-text&#34;</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;inputGroup-sizing-default&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">&gt;</span>Default<span class="p">&lt;/</span><span class="nt">span</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">input</span>
+</span></span><span class="line"><span class="cl">    <span class="na">type</span><span class="o">=</span><span class="s">&#34;text&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="na">placeholder</span><span class="o">=</span><span class="s">&#34;Placeholder&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-control&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="na">aria-label</span><span class="o">=</span><span class="s">&#34;Sizing&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="na">example</span>
+</span></span><span class="line"><span class="cl">    <span class="na">input</span><span class="err">”</span>
+</span></span><span class="line"><span class="cl">    <span class="na">aria-describedby</span><span class="o">=</span><span class="s">&#34;inputGroup-sizing-default&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">/&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;input-group&#34;</span> <span class="na">input-group-lg</span><span class="err">”</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">span</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;input-group-text&#34;</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;inputGroup-sizing-lg&#34;</span><span class="p">&gt;</span>Large<span class="p">&lt;/</span><span class="nt">span</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">input</span>
+</span></span><span class="line"><span class="cl">    <span class="na">type</span><span class="o">=</span><span class="s">&#34;text&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="na">placeholder</span><span class="o">=</span><span class="s">&#34;Placeholder&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-control&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="na">aria-label</span><span class="o">=</span><span class="s">&#34;Sizing&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="na">example</span>
+</span></span><span class="line"><span class="cl">    <span class="na">input</span><span class="err">”</span>
+</span></span><span class="line"><span class="cl">    <span class="na">aria-describedby</span><span class="o">=</span><span class="s">&#34;inputGroup-sizing-lg&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">/&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span> 
+</span></span></code></pre></div></div>  
+    </div> 
+
+    <div id="foundations_input-group-guidelines" class="px-5 container-lib m-auto">
+    </div>
+
+</div>
+
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() { displayGuidelines('input-group') })
+    </script>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    
+<script type="text/javascript" src="../../main.js" defer></script>
+
+
+
+
+ 
+ 
+
+<script type="text/javascript" src="../../guidelines.js" defer></script>
+
+ 
+
+<script type="text/javascript" src="../../getDocuments.js" defer></script>
+
+ 
+
+<script type="text/javascript" src="../../dataTable.js" defer></script>
+
+
+
+<script src="../../js/lib/prism.1.26.js"></script>
+</body>
+
+</html>
