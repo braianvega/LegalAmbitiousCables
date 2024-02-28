@@ -1,0 +1,47 @@
+
+ 
+<div
+  class="d-lg-block d-none col-4 col-lg-3 ax-overflow-height border-end overflow-auto ax-left-side"
+  style="position: sticky;top: 97px;"
+  onload="getAllDocuments()"
+>
+  <div class="d-flex flex-column ax-left-menu">
+    <h1 class="ps-4 pt-8">Documentation </h1>
+    <div class="ax-versions">
+      <div class="dropdown ps-4 pe-4">
+        <button
+          class="btn btn-outline-light dropdown-toggle"
+          id="bd-versions"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+          data-bs-display="static"
+        >
+          Version v1.0
+        </button>
+        <ul
+          class="dropdown-menu dropdown-menu-end"
+          aria-labelledby="bd-versions"
+        >
+          <li>
+            <a
+              onclick="window.location.href='/'"
+              class="dropdown-item current"
+              aria-current="true"
+              >Latest (1.0.x)</a
+            >
+          </li>
+          <li><hr class="dropdown-divider" /></li>
+          <li>
+            <a onclick="window.location.href='/../../docs/v0.1'" class="dropdown-item"
+              >v0.1.x</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <nav class="pt-6 d-flex flex-column nav" id="navbar-desktop">
+        
+    </nav>
+  </div>
+</div>

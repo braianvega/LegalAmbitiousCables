@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	{{ partial "head" . }}
+</head>
+
+<body>
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KFQ7ZN3F" height="0" width="0"
+			style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+	{{ partial "header" . }}
+	<div class="container-fluid">
+		<div class="row position-relative">
+			{{ partial "navbar" . }}
+			<div class="overflow-auto  px-0 col-12 col-lg-9">
+				<div class="tab-content">
+					{{ block "main" . }} {{ partial "sections" . }} {{ end }}
+				</div>
+			</div>
+		</div>
+	</div>
+	{{ partial "scripts" .}}
+</body>
+
+</html>

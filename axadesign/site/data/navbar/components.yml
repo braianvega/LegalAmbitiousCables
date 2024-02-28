@@ -1,0 +1,131 @@
+- name: Alerts
+  link: /components/alerts/
+  navbar: components.alerts
+
+- name: Inline Alert
+  link: /components/inline-alert/
+  navbar: components.inline-alert
+
+- name: Badges
+  link: /components/badges/
+  navbar: components.badges
+
+- name: Breadcrumb
+  link: /components/breadcrumb/
+  navbar: components.breadcrumb
+
+- name: Buttons
+  link: /components/buttons/
+  navbar: components.buttons
+
+- name: Buttons Group
+  link: /components/buttons-group/
+  navbar: components.buttons-group
+
+- name: Card
+  link: /components/card/
+  navbar: components.card
+
+- name: Carousel
+  link: /components/carousel/
+  navbar: components.carousel
+
+- name: Collapse
+  link: /components/collapse/
+  navbar: components.collapse
+
+- name: Close Button
+  link: /components/close-button/
+  disable: "yes"
+  navbar: components.close-button
+
+- name: Dropdown
+  link: /components/dropdown/
+  navbar: components.dropdown 
+  
+- name: Figures
+  link: /components/figures/
+  navbar: components.figures
+  disable: "yes"
+  
+- name: Header
+  link: /components/header/
+  navbar: components.header
+
+- name: Input Group
+  link: /components/input-group/
+  navbar: components.input-group
+
+- name: Images
+  link: /components/images/
+  disable: "yes"
+  navbar: components.images
+
+- name: List Group
+  link: /components/list-group/
+  navbar: components.list-group
+
+
+- name: Media Object
+  link: /components/media-object/
+  disable: "yes"
+  navbar: components.media-object
+
+- name: Modal
+  link: /components/modal/
+  navbar: components.modal
+
+- name: Dialog
+  link: /components/dialog/
+  navbar: components.dialog
+
+- name: Navs
+  link: /components/navs/
+  navbar: components.navs
+
+- name: Pagination
+  link: /components/pagination/
+  navbar: components.pagination
+
+- name: Popovers
+  link: /components/popovers/
+  navbar: components.popovers
+
+- name: Progress
+  link: /components/progress/
+  navbar: components.progress
+
+- name: Scrollspy
+  link: /components/scrollspy/
+  navbar: components.scrollspy
+
+- name: Spinners
+  link: /components/spinners/
+  navbar: components.spinners
+
+- name: Toast
+  link: /components/toast/
+  navbar: components.toast
+
+- name: Tooltips
+  link: /components/tooltips/
+  navbar: components.tooltips
+  
+
+- name: Tables
+  link: /components/tables/
+  disable: "yes"
+  navbar: components.tables
+
+
+- name: Data-table
+  link: /components/data-table/
+  navbar: components.datatable
+
+- name: Hero Cover
+  link: /components/herocover/
+  navbar: components.herocover
+
+- name: Home Page
+  link: /components/homepage/
+  navbar: components.homepage

@@ -1,0 +1,58 @@
+/*!
+ * AXA Design System Lib v1.0.0 (https://designsystem.axa.com)
+ * Copyright 2021 AXA
+ * This a fork of Bootstrap : Initial license below
+ * Bootstrap v5.1.3 (https://getbootstrap.com)
+ * Copyright 2011-2019 The Bootstrap Authors
+ * Copyright 2011-2019 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+// scss-docs-start import-stack
+// Configuration
+@import "functions";
+@import "variables";
+@import "mixins";
+@import "utilities";
+
+// Layout & components
+@import "root";
+@import "reboot";
+@import "type";
+@import "images";
+@import "containers";
+@import "grid";
+@import "tables";
+@import "forms";
+@import "buttons";
+@import "transitions";
+@import "dropdown";
+@import "button-group";
+@import "nav";
+@import "navbar";
+@import "card";
+@import "accordion";
+@import "breadcrumb";
+@import "pagination";
+@import "badge";
+@import "alert";
+@import "progress";
+@import "list-group";
+@import "close";
+@import "toasts";
+@import "modal";
+@import "tooltip";
+@import "popover";
+@import "carousel";
+@import "spinners";
+@import "offcanvas";
+@import "placeholders";
+
+// Helpers
+@import "helpers";
+
+// Utilities
+@import "utilities/api";
+// scss-docs-end import-stack
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInN0ZGluIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBIiwiZmlsZSI6InN0ZGluIiwic291cmNlc0NvbnRlbnQiOlsiLyohXHJcbiAqIEFYQSBEZXNpZ24gU3lzdGVtIExpYiB2MS4wLjAgKGh0dHBzOi8vZGVzaWduc3lzdGVtLmF4YS5jb20pXHJcbiAqIENvcHlyaWdodCAyMDIxIEFYQVxyXG4gKiBUaGlzIGEgZm9yayBvZiBCb290c3RyYXAgOiBJbml0aWFsIGxpY2Vuc2UgYmVsb3dcclxuICogQm9vdHN0cmFwIHY1LjEuMyAoaHR0cHM6Ly9nZXRib290c3RyYXAuY29tKVxyXG4gKiBDb3B5cmlnaHQgMjAxMS0yMDE5IFRoZSBCb290c3RyYXAgQXV0aG9yc1xyXG4gKiBDb3B5cmlnaHQgMjAxMS0yMDE5IFR3aXR0ZXIsIEluYy5cclxuICogTGljZW5zZWQgdW5kZXIgTUlUIChodHRwczovL2dpdGh1Yi5jb20vdHdicy9ib290c3RyYXAvYmxvYi9tYXN0ZXIvTElDRU5TRSlcclxuICovXHJcblxyXG4vLyBzY3NzLWRvY3Mtc3RhcnQgaW1wb3J0LXN0YWNrXHJcbi8vIENvbmZpZ3VyYXRpb25cclxuQGltcG9ydCBcImZ1bmN0aW9uc1wiO1xyXG5AaW1wb3J0IFwidmFyaWFibGVzXCI7XHJcbkBpbXBvcnQgXCJtaXhpbnNcIjtcclxuQGltcG9ydCBcInV0aWxpdGllc1wiO1xyXG5cclxuLy8gTGF5b3V0ICYgY29tcG9uZW50c1xyXG5AaW1wb3J0IFwicm9vdFwiO1xyXG5AaW1wb3J0IFwicmVib290XCI7XHJcbkBpbXBvcnQgXCJ0eXBlXCI7XHJcbkBpbXBvcnQgXCJpbWFnZXNcIjtcclxuQGltcG9ydCBcImNvbnRhaW5lcnNcIjtcclxuQGltcG9ydCBcImdyaWRcIjtcclxuQGltcG9ydCBcInRhYmxlc1wiO1xyXG5AaW1wb3J0IFwiZm9ybXNcIjtcclxuQGltcG9ydCBcImJ1dHRvbnNcIjtcclxuQGltcG9ydCBcInRyYW5zaXRpb25zXCI7XHJcbkBpbXBvcnQgXCJkcm9wZG93blwiO1xyXG5AaW1wb3J0IFwiYnV0dG9uLWdyb3VwXCI7XHJcbkBpbXBvcnQgXCJuYXZcIjtcclxuQGltcG9ydCBcIm5hdmJhclwiO1xyXG5AaW1wb3J0IFwiY2FyZFwiO1xyXG5AaW1wb3J0IFwiYWNjb3JkaW9uXCI7XHJcbkBpbXBvcnQgXCJicmVhZGNydW1iXCI7XHJcbkBpbXBvcnQgXCJwYWdpbmF0aW9uXCI7XHJcbkBpbXBvcnQgXCJiYWRnZVwiO1xyXG5AaW1wb3J0IFwiYWxlcnRcIjtcclxuQGltcG9ydCBcInByb2dyZXNzXCI7XHJcbkBpbXBvcnQgXCJsaXN0LWdyb3VwXCI7XHJcbkBpbXBvcnQgXCJjbG9zZVwiO1xyXG5AaW1wb3J0IFwidG9hc3RzXCI7XHJcbkBpbXBvcnQgXCJtb2RhbFwiO1xyXG5AaW1wb3J0IFwidG9vbHRpcFwiO1xyXG5AaW1wb3J0IFwicG9wb3ZlclwiO1xyXG5AaW1wb3J0IFwiY2Fyb3VzZWxcIjtcclxuQGltcG9ydCBcInNwaW5uZXJzXCI7XHJcbkBpbXBvcnQgXCJvZmZjYW52YXNcIjtcclxuQGltcG9ydCBcInBsYWNlaG9sZGVyc1wiO1xyXG5cclxuLy8gSGVscGVyc1xyXG5AaW1wb3J0IFwiaGVscGVyc1wiO1xyXG5cclxuLy8gVXRpbGl0aWVzXHJcbkBpbXBvcnQgXCJ1dGlsaXRpZXMvYXBpXCI7XHJcbi8vIHNjc3MtZG9jcy1lbmQgaW1wb3J0LXN0YWNrXHJcbiJdfQ== */

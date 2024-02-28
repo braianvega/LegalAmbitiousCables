@@ -1,0 +1,22 @@
+{{ $built := resources.Get "js/index.js" | js.Build "main.js" }}
+<script type="text/javascript" src="{{ $built.RelPermalink }}" defer></script>
+{{ $guidelinesapi := $.Site.Params.host }}
+
+{{ $url := (cond (eq .Site.Params.env "local") `"http://localhost:3001"` `"/"`) }}
+
+{{ $defines := dict "process.env.environment" $url "process.env.version" `"v1.0"` }} 
+{{ $opts := dict "targetPath" "guidelines.js" "defines" $defines }} 
+{{ $guidelines := resources.Get "js/guidelines.js" |js.Build $opts }}
+<script type="text/javascript" src="{{ $guidelines.RelPermalink }}" defer></script>
+
+{{ $optsGetDocuments := dict "targetPath" "getDocuments.js" "defines" $defines}} 
+{{ $getDocuments := resources.Get "js/getDocuments.js" |js.Build $optsGetDocuments}}
+<script type="text/javascript" src="{{ $getDocuments.RelPermalink}}" defer></script>
+
+{{ $optsDataTable := dict "targetPath" "dataTable.js"}} 
+{{ $dataTable := resources.Get "js/dataTable.js" |js.Build $optsDataTable}}
+<script type="text/javascript" src="{{ $dataTable.RelPermalink}}" defer></script>
+
+
+{{ $prism := resources.Get "js/lib/prism.1.26.js" }}
+<script src="{{ $prism.Permalink | relURL }}"></script>

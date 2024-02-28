@@ -1,0 +1,42 @@
+<style>
+    .background-overview {
+        color : white;
+        height: 35vh;
+        display: flex;
+        background-size: cover;
+        justify-content: end;
+        flex-direction: column;
+    }
+
+</style>
+
+<div class="container-lib m-auto px-5 background-overview mb-5 " > 
+    <h1 class="display-3 py-3 text-capitalize w-75"> {{ .Title }}</h1>
+</div>
+ 
+{{ if not .Params.disableUseCase }}
+
+<ul class="nav h3 w-100 border-top mb-6">
+    <li class="nav-item w-50">
+        <a class="nav-link active" id="selection_{{ .Params.menuSlug }}-tech" href="#" onclick="displayTechDoc('{{ .Params.menuSlug }}')">Implementation</a>
+    </li>
+    <li class="nav-item w-50">
+        <a class="nav-link" id="selection_{{ .Params.menuSlug }}-guidelines" href="#" onclick="displayGuidelines('{{ .Params.menuSlug }}')">Design guidelines</a>
+    </li>
+</ul>
+
+{{ end }}
+
+
+<div id="foundations_{{ .Params.menuSlug }}-tech" class="px-5 container-lib m-auto">
+
+    <p class="lead col-12 col-md-7"> {{ with .Params.description }}{{ . | safeHTML }}{{ end }}</p>
+    {{ if .Params.bootstrapRef }}
+
+    {{ end}} {{.Content}}
+
+
+</div>
+
+<div id="foundations_{{ .Params.menuSlug }}-guidelines" class="px-5 container-lib m-auto">
+</div>
