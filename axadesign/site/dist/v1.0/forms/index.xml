@@ -1,100 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Axa Hugo Docs</title>
-    <link>/forms/</link>
-    <description>Recent content on Axa Hugo Docs</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="/forms/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Checkbox</title>
-      <link>/forms/checkbox/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/forms/checkbox/</guid>
-      <description>CheckboxesDefault (stacked)Check this checkboxDisabled checkbox&amp;lt;div class=&amp;#34;form-check&amp;#34;&amp;gt; &amp;lt;input type=&amp;#34;checkbox&amp;#34; class=&amp;#34;form-check-input&amp;#34; id=&amp;#34;defaultCheck1&amp;#34; /&amp;gt; &amp;lt;label class=&amp;#34;form-check-label&amp;#34; for=&amp;#34;defaultCheck1&amp;#34;&amp;gt;Check this checkbox&amp;lt;/label&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;form-check&amp;#34;&amp;gt; &amp;lt;input type=&amp;#34;checkbox&amp;#34; class=&amp;#34;form-check-input&amp;#34; id=&amp;#34;disabledCheck1&amp;#34; disabled/&amp;gt; &amp;lt;label class=&amp;#34;form-check-label&amp;#34; for=&amp;#34;disabledCheck1&amp;#34;&amp;gt;Disabled checkbox&amp;lt;/label&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; </description>
-    </item>
-    
-    <item>
-      <title>File Input</title>
-      <link>/forms/file-input/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/forms/file-input/</guid>
-      <description> File inputExample file input&amp;lt;form&amp;gt; &amp;lt;div class=&amp;#34;custom-file&amp;#34;&amp;gt; &amp;lt;label for=&amp;#34;exampleInputFile&amp;#34; class=&amp;#34;form-label&amp;#34;&amp;gt; Example file input &amp;lt;/label&amp;gt; &amp;lt;br/&amp;gt; &amp;lt;input type=&amp;#34;file&amp;#34; class=&amp;#34;custom-file-input&amp;#34; id=&amp;#34;exampleInputFile&amp;#34;&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/form&amp;gt; </description>
-    </item>
-    
-    <item>
-      <title>Input-group</title>
-      <link>/forms/input-group/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/forms/input-group/</guid>
-      <description>Basic example@@example.com$.00With textarea&amp;lt;div class=&amp;#34;input-group mb-3&amp;#34;&amp;gt; &amp;lt;span class=&amp;#34;input-group-text&amp;#34; id=&amp;#34;basic-addon1&amp;#34;&amp;gt;@&amp;lt;/span&amp;gt; &amp;lt;input type=&amp;#34;text&amp;#34; class=&amp;#34;form-control&amp;#34; placeholder=&amp;#34;Username&amp;#34; aria-label=&amp;#34;Username&amp;#34; aria-describedby=&amp;#34;basic-addon1&amp;#34; /&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;input-group&amp;#34; mb-3”&amp;gt; &amp;lt;input type=&amp;#34;text&amp;#34; class=&amp;#34;form-control&amp;#34; placeholder=&amp;#34;Recipient’s&amp;#34; aria-label=&amp;#34;Recipient’s&amp;#34; aria-describedby=&amp;#34;basic-addon2&amp;#34; /&amp;gt; &amp;lt;span class=&amp;#34;input-group-text&amp;#34; id=&amp;#34;basic-addon2&amp;#34;&amp;gt;@example.com&amp;lt;/span&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;input-group&amp;#34; mb-3”&amp;gt; &amp;lt;span class=&amp;#34;input-group-text&amp;#34;&amp;gt;$&amp;lt;/span&amp;gt; &amp;lt;input type=“text” class=“form-control” aria-label=“Amount (to the nearest dollar)&amp;#34;&amp;gt; &amp;lt;span class=&amp;#34;input-group-text&amp;#34;&amp;gt;.00&amp;lt;/span&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;input-group&amp;#34;&amp;gt; &amp;lt;span class=&amp;#34;input-group-text&amp;#34;&amp;gt;With textarea&amp;lt;/span&amp;gt; &amp;lt;textarea class=&amp;#34;form-control&amp;#34; aria-label=&amp;#34;With&amp;#34; textarea”&amp;gt;&amp;lt;/textarea&amp;gt; &amp;lt;/div&amp;gt; SizingYou can vary the sizes to make your form elements responsive.</description>
-    </item>
-    
-    <item>
-      <title>Overview</title>
-      <link>/forms/overview/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/forms/overview/</guid>
-      <description>OverviewEmail addressWe will never share your email with anyone else.PasswordCheck this custom checkboxsubmit&amp;lt;form&amp;gt; &amp;lt;div class=&amp;#34;mb-4&amp;#34;&amp;gt; &amp;lt;label for=&amp;#34;exampleInputEmail1&amp;#34; class=&amp;#34;form-label&amp;#34;&amp;gt; &amp;lt;strong&amp;gt;Email address&amp;lt;/strong&amp;gt; &amp;lt;/label&amp;gt; &amp;lt;input type=&amp;#34;email&amp;#34; class=&amp;#34;form-control&amp;#34; id=&amp;#34;exampleInputEmail1&amp;#34; aria-describedby=&amp;#34;emailHelp1&amp;#34; /&amp;gt; &amp;lt;div id=&amp;#34;emailHelp1&amp;#34; class=&amp;#34;form-text&amp;#34;&amp;gt; We will never share your email with anyone else. &amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;mb-4&amp;#34;&amp;gt; &amp;lt;label for=&amp;#34;exampleInputPassword1&amp;#34; class=&amp;#34;form-label&amp;#34;&amp;gt; &amp;lt;strong&amp;gt;Password&amp;lt;/strong&amp;gt; &amp;lt;/label&amp;gt; &amp;lt;input type=&amp;#34;password&amp;#34; class=&amp;#34;form-control&amp;#34; id=&amp;#34;exampleInputPassword1&amp;#34; /&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;mb-4 form-check&amp;#34;&amp;gt; &amp;lt;input type=&amp;#34;checkbox&amp;#34; class=&amp;#34;form-check-input&amp;#34; id=&amp;#34;exampleCheck1&amp;#34; /&amp;gt; &amp;lt;label class=&amp;#34;form-check-label&amp;#34; for=&amp;#34;exampleCheck1&amp;#34;&amp;gt; Check this custom checkbox &amp;lt;/label&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;button type=&amp;#34;submit&amp;#34; class=&amp;#34;btn btn-primary&amp;#34;&amp;gt;submit&amp;lt;/button&amp;gt; &amp;lt;/form&amp;gt; </description>
-    </item>
-    
-    <item>
-      <title>Radio Buttons</title>
-      <link>/forms/radio-buttons/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/forms/radio-buttons/</guid>
-      <description>Toggle this radioOr toggle this other radioDisabled other radio&amp;lt;div class=&amp;#34;form-check&amp;#34;&amp;gt; &amp;lt;input class=&amp;#34;form-check-input&amp;#34; type=&amp;#34;radio&amp;#34; name=&amp;#34;exampleRadios&amp;#34; id=&amp;#34;exampleRadios1&amp;#34; value=&amp;#34;option1&amp;#34; checked /&amp;gt; &amp;lt;label class=&amp;#34;form-check-label&amp;#34; for=&amp;#34;exampleRadios1&amp;#34;&amp;gt; Toggle this radio &amp;lt;/label&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;form-check&amp;#34;&amp;gt; &amp;lt;input class=&amp;#34;form-check-input&amp;#34; type=&amp;#34;radio&amp;#34; name=&amp;#34;exampleRadios&amp;#34; id=&amp;#34;exampleRadios2&amp;#34; value=&amp;#34;option2&amp;#34; /&amp;gt; &amp;lt;label class=&amp;#34;form-check-label&amp;#34; for=&amp;#34;exampleRadios2&amp;#34;&amp;gt; Or toggle this other radio &amp;lt;/label&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;form-check&amp;#34;&amp;gt; &amp;lt;input class=&amp;#34;form-check-input&amp;#34; type=&amp;#34;radio&amp;#34; name=&amp;#34;exampleRadios&amp;#34; id=&amp;#34;exampleRadios3&amp;#34; value=&amp;#34;option3&amp;#34; disabled /&amp;gt; &amp;lt;label class=&amp;#34;form-check-label&amp;#34; for=&amp;#34;exampleRadios3&amp;#34;&amp;gt; Disabled other radio &amp;lt;/label&amp;gt; &amp;lt;/div&amp;gt; </description>
-    </item>
-    
-    <item>
-      <title>Range</title>
-      <link>/forms/range/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/forms/range/</guid>
-      <description>Range InputCreate custom &amp;lt;input type=&#34;range&#34;&amp;gt; controlswith .form-range. The track (the background) andthumb (the value) are both styled to appear the same acrossbrowsers. As only Firefox support “filling” their track from theleft or right of the thumb as a means to visually indicateprogress, we do not currently support it.Example range&amp;lt;label for=&amp;#34;customRange1&amp;#34; class=&amp;#34;form-label&amp;#34;&amp;gt;Example range&amp;lt;/label&amp;gt; &amp;lt;input type=&amp;#34;range&amp;#34; class=&amp;#34;form-range&amp;#34; id=&amp;#34;customRange1&amp;#34; /&amp;gt; Disabled range&amp;lt;label for=&amp;#34;disabledRange&amp;#34; class=&amp;#34;form-label&amp;#34;&amp;gt;Disabled range&amp;lt;/label&amp;gt; &amp;lt;input type=&amp;#34;range&amp;#34; class=&amp;#34;form-range&amp;#34; id=&amp;#34;disabledRange&amp;#34; disabled /&amp;gt; </description>
-    </item>
-    
-    <item>
-      <title>Select</title>
-      <link>/forms/select/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/forms/select/</guid>
-      <description>SelectSet heights using classes like .form-select-lg and.form-select-sm in &amp;lt;input&amp;gt;.PlaceholderPlaceholderPlaceholder&amp;lt;select class=&amp;#34;form-select form-select-lg&amp;#34; aria-label=&amp;#34;.form-select-lg example&amp;#34;&amp;gt; &amp;lt;option&amp;gt;Placeholder&amp;lt;/option&amp;gt; &amp;lt;/select&amp;gt; &amp;lt;select class=&amp;#34;form-select&amp;#34;&amp;gt; &amp;lt;option&amp;gt;Placeholder&amp;lt;/option&amp;gt; &amp;lt;/select&amp;gt; &amp;lt;select class=&amp;#34;form-select form-select-sm&amp;#34; aria-label=&amp;#34;.form-select-sm example&amp;#34;&amp;gt; &amp;lt;option&amp;gt;Placeholder&amp;lt;/option&amp;gt; &amp;lt;/select&amp;gt; </description>
-    </item>
-    
-    <item>
-      <title>Switches</title>
-      <link>/forms/switches/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/forms/switches/</guid>
-      <description>SwitchesA switch has the markup of a custom checkbox but uses the.form-switch class to render a toggle switch.Consider using role=&#34;switch&#34; to more accurately convey thenature of the control to assistive technologies that supportthis role. In older assistive technologies, it will simply beannounced as a regular checkbox as a fallback. Switches alsosupport the disabled attribute.Toggle this switch elementChecked switch elementDisabled switch elementDisabled checked switch element&amp;lt;div class=&amp;#34;form-check form-switch&amp;#34;&amp;gt; &amp;lt;input type=&amp;#34;checkbox&amp;#34; class=&amp;#34;form-check-input&amp;#34; role=&amp;#34;switch&amp;#34; id=&amp;#34;customSwitch1&amp;#34; /&amp;gt; &amp;lt;label class=&amp;#34;form-check-label&amp;#34; for=&amp;#34;customSwitch1&amp;#34;&amp;gt;Toggle this switch element&amp;lt;/label&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;form-check form-switch&amp;#34;&amp;gt; &amp;lt;input class=&amp;#34;form-check-input&amp;#34; type=&amp;#34;checkbox&amp;#34; role=&amp;#34;switch&amp;#34; id=&amp;#34;flexSwitchCheckChecked&amp;#34; checked&amp;gt; &amp;lt;label class=&amp;#34;form-check-label&amp;#34; for=&amp;#34;flexSwitchCheckChecked&amp;#34;&amp;gt;Checked switch element&amp;lt;/label&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;form-check form-switch&amp;#34;&amp;gt; &amp;lt;input type=&amp;#34;checkbox&amp;#34; class=&amp;#34;form-check-input&amp;#34; role=&amp;#34;switch&amp;#34; id=&amp;#34;customSwitcdiv&amp;#34; disabled/&amp;gt; &amp;lt;label class=&amp;#34;form-check-label&amp;#34; for=&amp;#34;customSwitcdiv&amp;#34;&amp;gt;Disabled switch element&amp;lt;/label&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;form-check form-switch&amp;#34;&amp;gt; &amp;lt;input class=&amp;#34;form-check-input&amp;#34; type=&amp;#34;checkbox&amp;#34; role=&amp;#34;switch&amp;#34; id=&amp;#34;flexSwitchCheckCheckedDisabled&amp;#34; checked disabled&amp;gt; &amp;lt;label class=&amp;#34;form-check-label&amp;#34; for=&amp;#34;flexSwitchCheckCheckedDisabled&amp;#34;&amp;gt;Disabled checked switch element&amp;lt;/label&amp;gt; &amp;lt;/div&amp;gt; </description>
-    </item>
-    
-    <item>
-      <title>Text Field</title>
-      <link>/forms/text-field/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/forms/text-field/</guid>
-      <description>Form controlGive textual form controls like &amp;lt;input&amp;gt;s and&amp;lt;textarea&amp;gt;s an upgrade with custom styles,sizing, focus states, and more.Email addressWe will never share your email with anyone else.Label12345Help textLabel&amp;lt;form&amp;gt; &amp;lt;div class=&amp;#34;mb-4&amp;#34;&amp;gt; &amp;lt;label for=&amp;#34;exampleFormControlInput1&amp;#34; class=&amp;#34;form-label&amp;#34;&amp;gt; &amp;lt;strong&amp;gt;Email address&amp;lt;/strong&amp;gt; &amp;lt;/label&amp;gt; &amp;lt;input type=&amp;#34;email&amp;#34; class=&amp;#34;form-control&amp;#34; id=&amp;#34;exampleFormControlInput1&amp;#34; placeholder=&amp;#34;name@example.com&amp;#34; /&amp;gt; &amp;lt;div id=&amp;#34;emailHelp&amp;#34; class=&amp;#34;form-text&amp;#34;&amp;gt; We will never share your email with anyone else.</description>
-    </item>
-    
-    <item>
-      <title>Validation</title>
-      <link>/forms/validation/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/forms/validation/</guid>
-      <description>ValidationProvide valuable, actionable feedback to your users with HTML5form validationFirst nameLooks good!First name required.Last nameLooks good!Last name required.StatesChoose......Please select a valid state.Agree to terms and conditionsYou must agree before submitting.submit// Example starter JavaScript for disabling form submissions if there are invalid fields(function () {&#34;</description>
-    </item>
-    
-  </channel>
-</rss>

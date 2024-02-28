@@ -1,76 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Axa Hugo Docs</title>
-    <link>/foundations/</link>
-    <description>Recent content on Axa Hugo Docs</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="/foundations/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Colors</title>
-      <link>/foundations/colors/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/foundations/colors/</guid>
-      <description>Theme colorsWe use a subset of all colors to create a smaller color palette for generatingcolor schemes, also available as Sass variables and a Sass map inscss/_variables.scss file.Background color samples with saas variables used for each theme..bg-primary / --bs-primary / --bs-axa-blue $axa-blue.bg-secondary / --bs-primary / --bs-axa-sienna
-$axa-sienna.bg-success / --bs-success / --bs-green
-$green.bg-danger / --bs-danger / --bs-red$red.</description>
-    </item>
-    
-    <item>
-      <title>Grid system</title>
-      <link>/foundations/grid-system/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/foundations/grid-system/</guid>
-      <description>Grid optionsWhile uses ems or rems for defining most sizes,pxs are used for grid breakpoints and container widths. This isbecause the viewport width is in pixels and does not change with the fontsize.See how aspects of grid system work across multiple devices with a handytable.AXA specific updates : new xxl grid (as added in bootstrap 5.0),breakpoint, container max-width and gutter values also updated.</description>
-    </item>
-    
-    <item>
-      <title>Icons</title>
-      <link>/foundations/icons/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/foundations/icons/</guid>
-      <description>AXA Icon are available as a font file with its linked css. It is included inthe Library Build (introduction). Add filescss\axaIconFonts.css andfonts\axa-icon-font.svg/ttf/wof in your project to use the fonticons. If required, don&#39;t forget to update the path to the iconfonts in file css\axaIconFonts.css (check urls in part@font-face) Default icon size is 16px. Use class.fs-xl to have 24px icons sized Use class.fs-xxl to have 32px icons sizedicon referencedefault size (16px)xl size (24px)xxl size (32px)arrow_dropdown&amp;lt;i class=&#34;</description>
-    </item>
-    
-    <item>
-      <title>Logo</title>
-      <link>/foundations/logo/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/foundations/logo/</guid>
-      <description>Logo solid blueLogo open blue Logo open white   &amp;lt;i class=&amp;#34;navbar-brand d-block&amp;#34;&amp;gt;&amp;lt;/i&amp;gt; &amp;lt;i class=&amp;#34;navbar-brand-light d-block&amp;#34;&amp;gt;&amp;lt;/i&amp;gt; &amp;lt;i class=&amp;#34;navbar-brand-white d-block&amp;#34;&amp;gt;&amp;lt;/i&amp;gt; </description>
-    </item>
-    
-    <item>
-      <title>Shadows</title>
-      <link>/foundations/shadows/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/foundations/shadows/</guid>
-      <description>ExamplesWhile shadows on components are disabled by default in Bootstrapand can be enabled via$enable-shadows, you can also quickly add or removea shadow with our box-shadow utility classes.Includes support for .shadow-none and five defaultsizes (which have associated variables to match).No shadowSmall shadowRegular shadowLarger shadowXlarger shadowXXlarger shadow&amp;lt;div class=&amp;#34;shadow-none p-3 mb-5 bg-light&amp;#34;&amp;gt;No shadow&amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;shadow-sm p-3 mb-5 bg-white&amp;#34;&amp;gt;Small shadow&amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;shadow p-3 mb-5 bg-white&amp;#34;&amp;gt;Regular shadow&amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;shadow-lg p-3 mb-5 bg-white&amp;#34;&amp;gt;Larger shadow&amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;shadow-xlg p-3 mb-5 bg-white&amp;#34;&amp;gt;Xlarger shadow&amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;shadow-xxlg p-3 mb-5 bg-white&amp;#34;&amp;gt;XXlarger shadow&amp;lt;/div&amp;gt; </description>
-    </item>
-    
-    <item>
-      <title>Spacing</title>
-      <link>/foundations/spacing/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/foundations/spacing/</guid>
-      <description>Spacing optionAXA classes are built from a default Sass map ranging from 0.5rem to 5rem.The classes are named using the format{property}{sides}-{size} for xs and{property}{sides}-{breakpoint}-{size} for sm,md, lg, xl, and xxl.Where size is one of:
-0 - for classes that eliminate the margin orpadding by setting it to01 - (by default) for classes that set themargin or padding to$spacer * .</description>
-    </item>
-    
-    <item>
-      <title>Typography</title>
-      <link>/foundations/typography/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/foundations/typography/</guid>
-      <description>DisplayPublico Headline Bold is a the typeface with personality andemotion. It is used in bold for main messages and headlines andcreates contrast. Coupled with Source Sans Pro it enhances thedesign by adding rythm, creating a clear hierarchy and providinga strong visual identity.As for Publico Headline, entities have topurchase it directly onCommercial Type Foundry&#39;s website. You will only need to purchase the &#39;bold&#39; style, forfurther information please send a request through the Help&amp; Support page.</description>
-    </item>
-    
-  </channel>
-</rss>

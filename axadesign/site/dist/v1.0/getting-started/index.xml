@@ -1,46 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Axa Hugo Docs</title>
-    <link>/getting-started/</link>
-    <description>Recent content on Axa Hugo Docs</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="/getting-started/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Components</title>
-      <link>/getting-started/overview/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/getting-started/overview/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Design system roadmap</title>
-      <link>/getting-started/roadmap/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/getting-started/roadmap/</guid>
-      <description>const getIcon = (progress) = {let column = document.createElement(&#34;td&#34;)column.setAttribute(&#39;class&#39;,&#39;text-center&#39;)let icon = document.createElement(&#34;img&#34;)let status1 = document.createElement(&#34;span&#34;)let status2 = document.createElement(&#34;span&#34;)let status3 = document.createElement(&#34;span&#34;)switch (progress) {case &#34;to do&#34; : icon = document.createElement(&#34;div&#34;)icon.setAttribute(&#39;class&#39;,&#39;component-status&#39;) status1.setAttribute(&#39;class&#39;,&#39;status green&#39;)status2.setAttribute(&#39;class&#39;,&#39;status gray&#39;)status3.setAttribute(&#39;class&#39;,&#39;status gray&#39;)icon.appendChild(status1)icon.appendChild(status2)icon.appendChild(status3) break;case &#34;done&#34; : icon = document.createElement(&#34;div&#34;)icon.setAttribute(&#39;class&#39;,&#39;component-status&#39;) status1.setAttribute(&#39;class&#39;,&#39;status green&#39;)status2.setAttribute(&#39;class&#39;,&#39;status green&#39;)status3.setAttribute(&#39;class&#39;,&#39;status green&#39;)icon.appendChild(status1)icon.appendChild(status2)icon.appendChild(status3) break;case &#34;not planned&#34;: icon = document.</description>
-    </item>
-    
-    <item>
-      <title>Download the UI Kit</title>
-      <link>/getting-started/download-the-ui-kit/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/getting-started/download-the-ui-kit/</guid>
-      <description> document.addEventListener(&#39;DOMContentLoaded&#39;, function () { setTimeout( gtagListener, 2000); }, false); function gtagListener () { document.getElementById(&#34;uikit_download&#34;).addEventListener(&#34;click&#34;, () = { listenDownloadUIKIT()})}function listenDownloadUIKIT(){}  </description>
-    </item>
-    
-    <item>
-      <title>Implement the library</title>
-      <link>/getting-started/implement-the-library/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/getting-started/implement-the-library/</guid>
-      <description>view on bootstrapCompiled CSS and JSDownload ready-to-use compiled code for AXA Design SystemLibrary to easily drop into your project, which includes:Compiled and minified CSS bundles (see CSS files comparison)Compiled and minified JavaScript plugins (see JS filescomparison)Icons fonts and SourceSansPro fontsThe build can be particularly useful for a project started from scratch with the library.</description>
-    </item>
-    
-  </channel>
-</rss>

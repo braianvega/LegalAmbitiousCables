@@ -1,321 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Axa Hugo Docs</title>
-    <link>/components/</link>
-    <description>Recent content on Axa Hugo Docs</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="/components/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Accordeon</title>
-      <link>/components/accordeon/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/components/accordeon/</guid>
-      <description>Accordion exampleA more classic accordion version with disclosure to maximisespace and display information only when requested by the user.ACCORDION ITEM #1Some placeholder content for the first accordion panel.This panel is shown by default, thanks to the.show class.ACCORDION ITEM #2Some placeholder content for the second accordion panel.This panel is hidden by default.ACCORDION ITEM #3Some placeholder content for the second accordion panel.</description>
-    </item>
-    
-    <item>
-      <title>Alerts</title>
-      <link>/components/alerts/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/components/alerts/</guid>
-      <description>ExamplesYou can use the default colour scheme of the design systemdepending on the type of alert to be displayed.A simple confirmative alert is availableA simple informative alert is availableA simple error alert is available&amp;lt;div class=&amp;#34; alert alert-confirmative&amp;#34; role=&amp;#34;alert&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;alert-text&amp;#34;&amp;gt; A simple confirmative alert is available&amp;lt;/div&amp;gt; &amp;lt;svg class=&amp;#34;alert-cls-btn&amp;#34; data-bs-dismiss=&amp;#34;alert&amp;#34;width=&amp;#34;10&amp;#34; height=&amp;#34;10&amp;#34; viewBox=&amp;#34;0 0 10 10&amp;#34; fill=&amp;#34;none&amp;#34; xmlns=&amp;#34;http://www.w3.org/2000/svg&amp;#34;&amp;gt; &amp;lt;path d=&amp;#34;M9.</description>
-    </item>
-    
-    <item>
-      <title>Badges</title>
-      <link>/components/badges/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/components/badges/</guid>
-      <description>Contextual variationsYou can change the color of the badge according to the type ofinformation you need to display. Just pick one in the colorschemes.PrimarySecondarySuccessDangerWarningInfoLightDarkcustom&amp;lt;span class=&amp;#34;badge mb-1 bg-primary&amp;#34;&amp;gt;Primary&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;#34;badge mb-1 bg-secondary&amp;#34;&amp;gt;Secondary&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;#34;badge mb-1 bg-success&amp;#34;&amp;gt;Success&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;#34;badge mb-1 bg-danger&amp;#34;&amp;gt;Danger&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;#34;badge mb-1 bg-warning&amp;#34;&amp;gt;Warning&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;#34;badge mb-1 bg-info&amp;#34;&amp;gt;Info&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;#34;badge mb-1 bg-light text-dark&amp;#34;&amp;gt;Light&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;#34;badge mb-1 bg-dark&amp;#34;&amp;gt;Dark&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;#34;badge mb-1 text-white bg-axa-teal&amp;#34;&amp;gt;custom&amp;lt;/span&amp;gt; With iconsBreadcrumb links are represented by the colour sienna and if thelabel is too large it can be truncated using an ellipsis.</description>
-    </item>
-    
-    <item>
-      <title>Breadcrumb</title>
-      <link>/components/breadcrumb/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/components/breadcrumb/</guid>
-      <description>ExamplesHomeHomeLibraryHomeLibraryDataHome...Data&amp;lt;nav aria-label=&amp;#34;breadcrumb&amp;#34; class=&amp;#34;text-uppercase h3&amp;#34;&amp;gt; &amp;lt;ol class=&amp;#34;breadcrumb&amp;#34;&amp;gt; &amp;lt;li class=&amp;#34;breadcrumb-item active&amp;#34; aria-current=&amp;#34;page&amp;#34;&amp;gt; Home &amp;lt;/li&amp;gt; &amp;lt;/ol&amp;gt; &amp;lt;/nav&amp;gt; &amp;lt;nav aria-label=&amp;#34;breadcrumb&amp;#34; class=&amp;#34;text-uppercase h3&amp;#34;&amp;gt; &amp;lt;ol class=&amp;#34;breadcrumb&amp;#34;&amp;gt; &amp;lt;li class=&amp;#34;breadcrumb-item&amp;#34;&amp;gt;&amp;lt;a href=&amp;#34;#&amp;#34;&amp;gt;Home&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;li class=&amp;#34;breadcrumb-item active&amp;#34; aria-current=&amp;#34;page&amp;#34;&amp;gt; Library &amp;lt;/li&amp;gt; &amp;lt;/ol&amp;gt; &amp;lt;/nav&amp;gt; &amp;lt;nav aria-label=&amp;#34;breadcrumb&amp;#34; class=&amp;#34;text-uppercase h3&amp;#34;&amp;gt; &amp;lt;ol class=&amp;#34;breadcrumb&amp;#34;&amp;gt; &amp;lt;li class=&amp;#34;breadcrumb-item&amp;#34;&amp;gt;&amp;lt;a href=&amp;#34;#&amp;#34;&amp;gt;Home&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;li class=&amp;#34;breadcrumb-item&amp;#34;&amp;gt;&amp;lt;a href=&amp;#34;#&amp;#34;&amp;gt;Library&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;li class=&amp;#34;breadcrumb-item active&amp;#34; aria-current=&amp;#34;page&amp;#34;&amp;gt; Data &amp;lt;/li&amp;gt; &amp;lt;/ol&amp;gt; &amp;lt;/nav&amp;gt; &amp;lt;nav aria-label=&amp;#34;breadcrumb&amp;#34; class=&amp;#34;text-uppercase h3&amp;#34;&amp;gt; &amp;lt;ol class=&amp;#34;breadcrumb&amp;#34;&amp;gt; &amp;lt;li class=&amp;#34;breadcrumb-item&amp;#34;&amp;gt;&amp;lt;a href=&amp;#34;#&amp;#34;&amp;gt;Home&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;li class=&amp;#34;breadcrumb-item&amp;#34;&amp;gt;&amp;lt;a href=&amp;#34;#&amp;#34;&amp;gt;.</description>
-    </item>
-    
-    <item>
-      <title>Buttons &amp; Links</title>
-      <link>/components/buttons-and-links/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/components/buttons-and-links/</guid>
-      <description>ExamplesWe recommend using the buttons associated with the colours&#34;primary&#34;, &#34;secondary&#34; and &#34;light&#34; as a priority.Main theme buttons
-PrimarySecondaryLight&amp;lt;button type=&amp;#34;button&amp;#34; class=&amp;#34;btn btn-primary&amp;#34;&amp;gt;Primary&amp;lt;/button&amp;gt; &amp;lt;button type=&amp;#34;button&amp;#34; class=&amp;#34;btn btn-secondary&amp;#34;&amp;gt;Secondary&amp;lt;/button&amp;gt; &amp;lt;button type=&amp;#34;button&amp;#34; class=&amp;#34;btn btn-light&amp;#34;&amp;gt;Light&amp;lt;/button&amp;gt;  Outline buttonsThese buttons can be declined in outlines.PrimarySecondaryLight&amp;lt;button type=&amp;#34;button&amp;#34; class=&amp;#34;btn btn-outline-primary&amp;#34;&amp;gt;Primary&amp;lt;/button&amp;gt; &amp;lt;button type=&amp;#34;button&amp;#34; class=&amp;#34;btn btn-outline-secondary&amp;#34;&amp;gt;Secondary&amp;lt;/button&amp;gt; &amp;lt;button type=&amp;#34;button&amp;#34; class=&amp;#34;btn btn-outline-light&amp;#34;&amp;gt;Light&amp;lt;/button&amp;gt;  SizeThe size depends on the use, we prefer large buttons forprominent actions to smaller buttons for secondary actions.</description>
-    </item>
-    
-    <item>
-      <title>Calendar</title>
-      <link>/components/calendar/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/components/calendar/</guid>
-      <description> The component Footer have not been developed yet. If you have any question, please contact designsystem@axa.com.</description>
-    </item>
-    
-    <item>
-      <title>Card</title>
-      <link>/components/card/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/components/card/</guid>
-      <description>Card basicSimpleThis is the simplest card component, it does not contain a description andonly displays a title, a date and a super-title.Image at topPlaceholder  subheadThis is the card title21/03/2021
-&amp;lt;div class=&amp;#34;card&amp;#34; style=&amp;#34;width: 288px;&amp;#34;&amp;gt; &amp;lt;img src=&amp;#34;...&amp;#34; alt=&amp;#34;...&amp;#34; /&amp;gt; &amp;lt;div class=&amp;#34;card-body pt-4&amp;#34;&amp;gt; &amp;lt;h3 class=&amp;#34;card-subtitle text-secondary&amp;#34;&amp;gt;subhead&amp;lt;/h3&amp;gt; &amp;lt;h2 class=&amp;#34;card-title&amp;#34;&amp;gt;This is the card title&amp;lt;/h2&amp;gt; &amp;lt;p class=&amp;#34;h4 text-muted card-text&amp;#34;&amp;gt;21/03/2021&amp;lt;/p&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; Image at leftPlaceholdersubheadThis is the card title21/03/2021</description>
-    </item>
-    
-    <item>
-      <title>Carousel</title>
-      <link>/components/carousel/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/components/carousel/</guid>
-      <description>ExampleWith captionIncludes only a caption for the information to be displayed.First slide labelSome representative placeholder content for the firstslide.Second slide labelSome representative placeholder content for the secondslide.Third slide labelSome representative placeholder content for the thirdslide.PreviousNext&amp;lt;div id=&amp;#34;carouselExampleCaptions&amp;#34; class=&amp;#34;carousel slide&amp;#34; data-bs-ride=&amp;#34;carousel&amp;#34; data-bs-interval=&amp;#34;false&amp;#34; &amp;gt; &amp;lt;ol class=&amp;#34;carousel-indicators&amp;#34;&amp;gt; &amp;lt;li data-bs-target=&amp;#34;#carouselExampleCaptions&amp;#34; data-bs-slide-to=&amp;#34;0&amp;#34; class=&amp;#34;active&amp;#34; &amp;gt;&amp;lt;/li&amp;gt; &amp;lt;li data-bs-target=&amp;#34;#carouselExampleCaptions&amp;#34; data-bs-slide-to=&amp;#34;1&amp;#34;&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;li data-bs-target=&amp;#34;#carouselExampleCaptions&amp;#34; data-bs-slide-to=&amp;#34;2&amp;#34;&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;/ol&amp;gt; &amp;lt;div class=&amp;#34;carousel-inner&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;carousel-item active&amp;#34;&amp;gt; &amp;lt;div style=&amp;#34; height: 400px; background-image: url(&amp;#39;.</description>
-    </item>
-    
-    <item>
-      <title>Close-button</title>
-      <link>/components/close-button/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/components/close-button/</guid>
-      <description>componentsclose buttonLorem ipsum dolor sit amet consectetur adipisicing elit. Aperiammolestiae, atque ad sapiente, numquam explicabo dolor rerumperspiciatis laborum perferendis molestias iste eaque cum veniamdeleniti fugit! Voluptatum, minus. Quas!</description>
-    </item>
-    
-    <item>
-      <title>Collapse</title>
-      <link>/components/collapse/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/components/collapse/</guid>
-      <description>ExampleLink with hrefButton with data-bs-targetSome placeholder content for the collapse component. Thispanel is hidden by default but revealed when the useractivates the relevant trigger.&amp;lt;p&amp;gt; &amp;lt;a class=&amp;#34;btn btn-primary&amp;#34; data-bs-toggle=&amp;#34;collapse&amp;#34; href=&amp;#34;#collapseExample&amp;#34; role=&amp;#34;button&amp;#34; aria-expanded=&amp;#34;false&amp;#34; aria-controls=&amp;#34;collapseExample&amp;#34; &amp;gt; Link with href &amp;lt;/a&amp;gt; &amp;lt;button class=&amp;#34;btn btn-primary&amp;#34; type=&amp;#34;button&amp;#34; data-bs-toggle=&amp;#34;collapse&amp;#34; data-bs-target=&amp;#34;#collapseExample&amp;#34; aria-expanded=&amp;#34;false&amp;#34; aria-controls=&amp;#34;collapseExample&amp;#34; &amp;gt; Button with data-bs-target &amp;lt;/button&amp;gt; &amp;lt;/p&amp;gt; &amp;lt;div class=&amp;#34;collapse&amp;#34; id=&amp;#34;collapseExample&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;card card-body&amp;#34;&amp;gt; Some placeholder content for the collapse component.</description>
-    </item>
-    
-    <item>
-      <title>Data-table</title>
-      <link>/components/data-table/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/components/data-table/</guid>
-      <description>Data table exampleIn addition to sorting the table elements, this version of datatable truncates the text when it is longer than the colum and show the full text in a tooltip on hover.Select NumberTextActions data10Text0  data21 Text that is longer than the column width is truncated.</description>
-    </item>
-    
-    <item>
-      <title>Dialog</title>
-      <link>/components/dialog/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/components/dialog/</guid>
-      <description>Examples Dialog componentsThe Dialog component is displayed on top of any content. It can be easilyclosed if the user clicks on the cross and can allow for strong validationsteps.Dialogs titleDialogs body text goes here.
-button 1button 2&amp;lt;div class=&amp;#34;modal&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;modal-dialog&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;modal-content&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;modal-header&amp;#34;&amp;gt; &amp;lt;h2 class=&amp;#34;modal-title&amp;#34;&amp;gt;Dialogs title&amp;lt;/h2&amp;gt; &amp;lt;button type=&amp;#34;button&amp;#34; class=&amp;#34;btn-close&amp;#34; data-bs-dismiss=&amp;#34;modal&amp;#34; aria-label=&amp;#34;Close&amp;#34; &amp;gt;&amp;lt;/button&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;modal-body&amp;#34;&amp;gt; &amp;lt;p&amp;gt;Dialogs body text goes here.</description>
-    </item>
-    
-    <item>
-      <title>Dropdown</title>
-      <link>/components/dropdown/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/components/dropdown/</guid>
-      <description>Single buttonThe simplest version uses a button. The latter can be adapted tothe colours present in the default theme.primary buttonActionAnother actionSomething else here&amp;lt;div class=&amp;#34;dropdown&amp;#34;&amp;gt; &amp;lt;button class=&amp;#34;btn btn-primary dropdown-toggle&amp;#34; type=&amp;#34;button&amp;#34; id=&amp;#34;dropdownMenuButton&amp;#34; data-bs-toggle=&amp;#34;dropdown&amp;#34; aria-haspopup=&amp;#34;true&amp;#34; aria-expanded=&amp;#34;false&amp;#34;&amp;gt; primary button &amp;lt;/button&amp;gt; &amp;lt;div class=&amp;#34;dropdown-menu&amp;#34; aria-labelledby=&amp;#34;dropdownMenuButton&amp;#34;&amp;gt; &amp;lt;a class=&amp;#34;dropdown-item&amp;#34; href=&amp;#34;#&amp;#34;&amp;gt;Action&amp;lt;/a&amp;gt; &amp;lt;a class=&amp;#34;dropdown-item&amp;#34; href=&amp;#34;#&amp;#34;&amp;gt;Another action&amp;lt;/a&amp;gt; &amp;lt;a class=&amp;#34;dropdown-item&amp;#34; href=&amp;#34;#&amp;#34;&amp;gt;Something else here&amp;lt;/a&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; Split buttonYou can also use the split button to make a first selectionbefore submitting.</description>
-    </item>
-    
-    <item>
-      <title>Figures</title>
-      <link>/components/figures/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/components/figures/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Footer</title>
-      <link>/components/footer/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/components/footer/</guid>
-      <description>AXA FooterThe footer is an important component of AXA design system . It is designed to be responsive, brand compliant, and easy to implement. This documentation will outline the different elements of the footer, there are two variations of the footer, one with a quick access section.Footer Features Responsive design: The footer is designed to be responsive, ensuring that it looks great on all screen sizes. The CSS styling uses media queries and flexbox to achieve this.</description>
-    </item>
-    
-    <item>
-      <title>Header</title>
-      <link>/components/header/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/components/header/</guid>
-      <description>AXA HeaderThe AXA header is an important element of the design system. It allows thegeneral navigation on a site and is completely responsive on mobile phones.It can be enriched with additional elements such as buttons or search bar.New @AXA : The version 1.x of the design system comes with a complex header compliant with AXA’s guidelines. This header, presented bellow, can be used in your project, and decomposed into different components.</description>
-    </item>
-    
-    <item>
-      <title>Hero Cover</title>
-      <link>/components/hero-cover/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/components/hero-cover/</guid>
-      <description>Examples Basic Hero cover Axa climateUpskilling &amp; engaging employees to succeed in the sustainable transition
-We enable companies to upskill and engage all employees to succeed in the sustainable transitionDiscoverLearn more&amp;lt;div class=&amp;#34;ax-example p-md-3 border&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;hero-cover text-black&amp;#34; style=&amp;#34;min-width: 470px&amp;#34;&amp;gt; &amp;lt;img alt=&amp;#34;image in a hero cover &amp;#34; class=&amp;#34;card-img hero-cover-img&amp;#34; src=&amp;#34;alt...&amp;#34; /&amp;gt; &amp;lt;div class=&amp;#34;hero-cover-mask mask-light-left&amp;#34;&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;cover-overlay &amp;#34;&amp;gt; &amp;lt;h3 class=&amp;#34;cover-subtitle&amp;#34;&amp;gt;Axa climate&amp;lt;/h3&amp;gt; &amp;lt;p class=&amp;#34;hero-cover-title display-5&amp;#34;&amp;gt;Upskilling &amp;amp; engaging employees to succeed in the sustainable transition&amp;lt;/p&amp;gt; &amp;lt;p class=&amp;#34;cover-body&amp;#34;&amp;gt; We enable companies to upskill and engage all employees to succeed in the sustainable transition &amp;lt;/p&amp;gt; &amp;lt;p&amp;gt; &amp;lt;button type=&amp;#34;button&amp;#34; class=&amp;#34;btn btn-sm btn-primary&amp;#34; &amp;gt; Discover &amp;lt;/button&amp;gt; &amp;lt;button type=&amp;#34;button&amp;#34; class=&amp;#34;btn btn-sm btn-outline-primary&amp;#34;&amp;gt; Learn more &amp;lt;/button&amp;gt; &amp;lt;/p&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; VariantsThe hero cover component can have differents variants depending on text position or themeCentered text Axa climateUpskilling &amp; engaging employees to succeed in the sustainable transition</description>
-    </item>
-    
-    <item>
-      <title>Icon Buttons</title>
-      <link>/components/icon-buttons/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/components/icon-buttons/</guid>
-      <description>The component Icon-buttons have not been developed yet. If you have any question, please contact designsystem@axa.com.</description>
-    </item>
-    
-    <item>
-      <title>Images</title>
-      <link>/components/images/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/components/images/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Inline Alert</title>
-      <link>/components/inline-alert/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/components/inline-alert/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>List-group</title>
-      <link>/components/list-group/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/components/list-group/</guid>
-      <description>Basic exampleAn itemAn itemAn itemAn itemAn item&amp;lt;ul class=&amp;#34;list-group list-group-flush&amp;#34;&amp;gt; &amp;lt;li class=&amp;#34;list-group-item&amp;#34;&amp;gt;An item&amp;lt;/li&amp;gt; &amp;lt;li class=&amp;#34;list-group-item&amp;#34;&amp;gt;An item&amp;lt;/li&amp;gt; &amp;lt;li class=&amp;#34;list-group-item&amp;#34;&amp;gt;An item&amp;lt;/li&amp;gt; &amp;lt;li class=&amp;#34;list-group-item&amp;#34;&amp;gt;An item&amp;lt;/li&amp;gt; &amp;lt;li class=&amp;#34;list-group-item&amp;#34;&amp;gt;An item&amp;lt;/li&amp;gt; &amp;lt;/ul&amp;gt; Active itemsAn itemAn itemAn itemAn itemAn item&amp;lt;ul class=&amp;#34;list-group list-group-flush&amp;#34;&amp;gt; &amp;lt;li class=&amp;#34;list-group-item active&amp;#34; aria-current=&amp;#34;true&amp;#34;&amp;gt;An item&amp;lt;/li&amp;gt; &amp;lt;li class=&amp;#34;list-group-item&amp;#34;&amp;gt;An item&amp;lt;/li&amp;gt; &amp;lt;li class=&amp;#34;list-group-item&amp;#34;&amp;gt;An item&amp;lt;/li&amp;gt; &amp;lt;li class=&amp;#34;list-group-item&amp;#34;&amp;gt;An item&amp;lt;/li&amp;gt; &amp;lt;li class=&amp;#34;list-group-item&amp;#34;&amp;gt;An item&amp;lt;/li&amp;gt; &amp;lt;/ul&amp;gt; Disabled itemsAn itemAn itemAn itemAn itemAn item&amp;lt;ul class=&amp;#34;list-group list-group-flush&amp;#34;&amp;gt; &amp;lt;li class=&amp;#34;list-group-item disabled&amp;#34; aria-disabled=&amp;#34;true&amp;#34;&amp;gt;An item&amp;lt;/li&amp;gt; &amp;lt;li class=&amp;#34;list-group-item&amp;#34;&amp;gt;An item&amp;lt;/li&amp;gt; &amp;lt;li class=&amp;#34;list-group-item&amp;#34;&amp;gt;An item&amp;lt;/li&amp;gt; &amp;lt;li class=&amp;#34;list-group-item&amp;#34;&amp;gt;An item&amp;lt;/li&amp;gt; &amp;lt;li class=&amp;#34;list-group-item&amp;#34;&amp;gt;An item&amp;lt;/li&amp;gt; &amp;lt;/ul&amp;gt; List with linksAn itemAn itemAn itemAn itemAn item&amp;lt;div class=&amp;#34;list-group list-group-flush&amp;#34;&amp;gt; &amp;lt;a href=&amp;#34;#&amp;#34; class=&amp;#34;list-group-item list-group-item-action active&amp;#34; aria-current=&amp;#34;true&amp;#34;&amp;gt;An item&amp;lt;/a&amp;gt; &amp;lt;a href=&amp;#34;#&amp;#34; class=&amp;#34;list-group-item list-group-item-action&amp;#34;&amp;gt;An item&amp;lt;/a&amp;gt; &amp;lt;a href=&amp;#34;#&amp;#34; class=&amp;#34;list-group-item list-group-item-action&amp;#34;&amp;gt;An item&amp;lt;/a&amp;gt; &amp;lt;a href=&amp;#34;#&amp;#34; class=&amp;#34;list-group-item list-group-item-action&amp;#34;&amp;gt;An item&amp;lt;/a&amp;gt; &amp;lt;a href=&amp;#34;#&amp;#34; class=&amp;#34;list-group-item list-group-item-action disabled&amp;#34; aria-disabled=&amp;#34;true&amp;#34;&amp;gt;An item&amp;lt;/a&amp;gt; &amp;lt;/div&amp;gt; List with links &amp; buttonsSpecific to AXA design : use &amp;lt;a&amp;gt; and addclasses .</description>
-    </item>
-    
-    <item>
-      <title>Media-object</title>
-      <link>/components/media-object/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/components/media-object/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Modal</title>
-      <link>/components/modal/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/components/modal/</guid>
-      <description>Examples modal componentsThe modal component is displayed on top of any content. It can be easilyclosed if the user clicks on the cross and can allow for strong validationsteps.Modal titleModal body text goes here.
-CloseSave changes&amp;lt;div class=&amp;#34;modal&amp;#34; tabindex=&amp;#34;-1&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;modal-dialog&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;modal-content&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;modal-header&amp;#34;&amp;gt; &amp;lt;h2 class=&amp;#34;modal-title&amp;#34;&amp;gt;Modal title&amp;lt;/h2&amp;gt; &amp;lt;button type=&amp;#34;button&amp;#34; class=&amp;#34;btn-close&amp;#34; data-bs-dismiss=&amp;#34;modal&amp;#34; aria-label=&amp;#34;Close&amp;#34; &amp;gt;&amp;lt;/button&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;modal-body&amp;#34;&amp;gt; &amp;lt;p&amp;gt;Modal body text goes here.</description>
-    </item>
-    
-    <item>
-      <title>Modal-object</title>
-      <link>/components/modal-object/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/components/modal-object/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Navs</title>
-      <link>/components/navs/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/components/navs/</guid>
-      <description> Horizontal navHorizontal navigation is often used to display content on demandin a tabbed fashion.ActiveLinkLinkLink&amp;lt;ul class=&amp;#34;nav h3&amp;#34;&amp;gt; &amp;lt;li class=&amp;#34;nav-item&amp;#34;&amp;gt; &amp;lt;a class=&amp;#34;nav-link active&amp;#34; href=&amp;#34;#&amp;#34;&amp;gt;Active&amp;lt;/a&amp;gt; &amp;lt;/li&amp;gt; &amp;lt;li class=&amp;#34;nav-item&amp;#34;&amp;gt; &amp;lt;a class=&amp;#34;nav-link&amp;#34; href=&amp;#34;#&amp;#34;&amp;gt;Link&amp;lt;/a&amp;gt; &amp;lt;/li&amp;gt; &amp;lt;li class=&amp;#34;nav-item&amp;#34;&amp;gt; &amp;lt;a class=&amp;#34;nav-link&amp;#34; href=&amp;#34;#&amp;#34;&amp;gt;Link&amp;lt;/a&amp;gt; &amp;lt;/li&amp;gt; &amp;lt;li class=&amp;#34;nav-item&amp;#34;&amp;gt; &amp;lt;a class=&amp;#34;nav-link&amp;#34; href=&amp;#34;#&amp;#34;&amp;gt;Link&amp;lt;/a&amp;gt; &amp;lt;/li&amp;gt; &amp;lt;/ul&amp;gt;  Vertical navActiveLinkLinkLink&amp;lt;ul class=&amp;#34;nav flex-column&amp;#34;&amp;gt; &amp;lt;li class=&amp;#34;nav-item&amp;#34;&amp;gt; &amp;lt;a class=&amp;#34;nav-link active&amp;#34; href=&amp;#34;#&amp;#34;&amp;gt;Active&amp;lt;/a&amp;gt; &amp;lt;/li&amp;gt; &amp;lt;li class=&amp;#34;nav-item&amp;#34;&amp;gt; &amp;lt;a class=&amp;#34;nav-link&amp;#34; href=&amp;#34;#&amp;#34;&amp;gt;Link&amp;lt;/a&amp;gt; &amp;lt;/li&amp;gt; &amp;lt;li class=&amp;#34;nav-item&amp;#34;&amp;gt; &amp;lt;a class=&amp;#34;nav-link&amp;#34; href=&amp;#34;#&amp;#34;&amp;gt;Link&amp;lt;/a&amp;gt; &amp;lt;/li&amp;gt; &amp;lt;li class=&amp;#34;nav-item&amp;#34;&amp;gt; &amp;lt;a class=&amp;#34;nav-link&amp;#34; href=&amp;#34;#&amp;#34;&amp;gt;Link&amp;lt;/a&amp;gt; &amp;lt;/li&amp;gt; &amp;lt;/ul&amp;gt;  </description>
-    </item>
-    
-    <item>
-      <title>Pagination</title>
-      <link>/components/pagination/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/components/pagination/</guid>
-      <description>OverviewPrevious123...333435Next&amp;lt;nav aria-label=&amp;#34;Page navigation example&amp;#34;&amp;gt; &amp;lt;ul class=&amp;#34;pagination text-uppercase h3&amp;#34;&amp;gt; &amp;lt;li class=&amp;#34;page-item&amp;#34;&amp;gt;&amp;lt;a class=&amp;#34;page-link pe-4&amp;#34; href=&amp;#34;#&amp;#34;&amp;gt;Previous&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;li class=&amp;#34;page-item&amp;#34;&amp;gt;&amp;lt;a class=&amp;#34;page-link&amp;#34; href=&amp;#34;#&amp;#34;&amp;gt;1&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;li class=&amp;#34;page-item&amp;#34;&amp;gt;&amp;lt;a class=&amp;#34;page-link&amp;#34; href=&amp;#34;#&amp;#34;&amp;gt;2&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;li class=&amp;#34;page-item&amp;#34;&amp;gt;&amp;lt;a class=&amp;#34;page-link&amp;#34; href=&amp;#34;#&amp;#34;&amp;gt;3&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;li class=&amp;#34;page-item&amp;#34;&amp;gt;&amp;lt;a class=&amp;#34;page-link&amp;#34; href=&amp;#34;#&amp;#34;&amp;gt;...&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;li class=&amp;#34;page-item&amp;#34;&amp;gt;&amp;lt;a class=&amp;#34;page-link&amp;#34; href=&amp;#34;#&amp;#34;&amp;gt;33&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;li class=&amp;#34;page-item&amp;#34;&amp;gt;&amp;lt;a class=&amp;#34;page-link&amp;#34; href=&amp;#34;#&amp;#34;&amp;gt;34&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;li class=&amp;#34;page-item active&amp;#34; aria-current=&amp;#34;page&amp;#34;&amp;gt;&amp;lt;a class=&amp;#34;page-link&amp;#34; href=&amp;#34;#&amp;#34;&amp;gt;35&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;li class=&amp;#34;page-item&amp;#34;&amp;gt;&amp;lt;a class=&amp;#34;page-link ps-4&amp;#34; href=&amp;#34;#&amp;#34;&amp;gt;Next&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;/ul&amp;gt; &amp;lt;/nav&amp;gt; Working with icons@AXA specific new classpagination-control-prev-icon andpagination-control-prev-iconPrevious23456.</description>
-    </item>
-    
-    <item>
-      <title>Popovers</title>
-      <link>/components/popovers/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/components/popovers/</guid>
-      <description>ExampleClick to toggle popover&amp;lt;button type=&amp;#34;button&amp;#34; class=&amp;#34;btn btn-secondary&amp;#34; data-bs-toggle=&amp;#34;popover&amp;#34; title=&amp;#34;Popover title&amp;#34; data-bs-content=&amp;#34;And here&amp;#39;s some amazing content. It&amp;#39;s very engaging. Right?&amp;#34; &amp;gt; Click to toggle popover &amp;lt;/button&amp;gt; &amp;lt;!–- script to add after loading all required js dependencies (axaDesignSystemLib/popper) –-&amp;gt; &amp;lt;script&amp;gt; // Enable popover everywhere  var popoverTriggerList = [].slice.call(document.querySelectorAll(’[data-bs-toggle=“popover”]’)) var popoverList = popoverTriggerList.map(function (popoverTriggerEl) { return new bootstrap.Popover(popoverTriggerEl) } ) &amp;lt;/script&amp;gt;  Four directionsYou can define the position where the popover will be displayed.</description>
-    </item>
-    
-    <item>
-      <title>Progress</title>
-      <link>/components/progress/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/components/progress/</guid>
-      <description> Example&amp;lt;div class=&amp;#34;progress&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;progress-bar&amp;#34; role=&amp;#34;progressbar&amp;#34; aria-valuenow=&amp;#34;0&amp;#34; aria-valuemin=&amp;#34;0&amp;#34; aria-valuemax=&amp;#34;100&amp;#34; &amp;gt;&amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;progress&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;progress-bar&amp;#34; role=&amp;#34;progressbar&amp;#34; style=&amp;#34;width: 75%&amp;#34; aria-valuenow=&amp;#34;75&amp;#34; aria-valuemin=&amp;#34;0&amp;#34; aria-valuemax=&amp;#34;100&amp;#34; &amp;gt;&amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;progress&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;progress-bar bg-secondary&amp;#34; role=&amp;#34;progressbar&amp;#34; style=&amp;#34;width: 55%&amp;#34; aria-valuenow=&amp;#34;55&amp;#34; aria-valuemin=&amp;#34;0&amp;#34; aria-valuemax=&amp;#34;100&amp;#34; &amp;gt;&amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt;  </description>
-    </item>
-    
-    <item>
-      <title>Scrollspy</title>
-      <link>/components/scrollspy/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/components/scrollspy/</guid>
-      <description>Example@AXA specific class nav-scrollspy to designcorrectly the nav/navbar within flex-columnNavbarItem 1Item 2Item 3Item 4Item 1Placeholder content for the scrollspy example. This onerelates to item 1. Takes you miles high, so high, &#39;causeshe’s got that one international smile. There&#39;s astranger in my bed, there&#39;s a pounding in my head. Oh,no. In another life I would make you stay.</description>
-    </item>
-    
-    <item>
-      <title>Skip links</title>
-      <link>/components/skip-links/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/components/skip-links/</guid>
-      <description>The component Skip links have not been developed yet. If you have any question, please contact designsystem@axa.com.</description>
-    </item>
-    
-    <item>
-      <title>Spinners</title>
-      <link>/components/spinners/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/components/spinners/</guid>
-      <description> ExampleLoading...Loading...Loading...&amp;lt;div class=&amp;#34;spinner-border text-primary&amp;#34; role=&amp;#34;status&amp;#34;&amp;gt; &amp;lt;span class=&amp;#34;visually-hidden&amp;#34;&amp;gt;Loading...&amp;lt;/span&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;spinner-border text-danger&amp;#34; role=&amp;#34;status&amp;#34;&amp;gt; &amp;lt;span class=&amp;#34;visually-hidden&amp;#34;&amp;gt;Loading...&amp;lt;/span&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;spinner-border text-light&amp;#34; role=&amp;#34;status&amp;#34;&amp;gt; &amp;lt;span class=&amp;#34;visually-hidden&amp;#34;&amp;gt;Loading...&amp;lt;/span&amp;gt; &amp;lt;/div&amp;gt;  </description>
-    </item>
-    
-    <item>
-      <title>Tables</title>
-      <link>/components/tables/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/components/tables/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Toast</title>
-      <link>/components/toast/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/components/toast/</guid>
-      <description>ExamplesbasicThis is a toast description.button&amp;lt;div class=&amp;#34;toast fade show&amp;#34; role=&amp;#34;alert&amp;#34; aria-live=&amp;#34;assertive&amp;#34; aria-atomic=&amp;#34;true&amp;#34; &amp;gt; &amp;lt;div class=&amp;#34;toast-header toast-confirmative&amp;#34; &amp;gt; &amp;lt;svg width=&amp;#34;14&amp;#34; height=&amp;#34;14&amp;#34; viewBox=&amp;#34;0 0 14 14&amp;#34; fill=&amp;#34;none&amp;#34; xmlns=&amp;#34;http://www.w3.org/2000/svg&amp;#34;&amp;gt;&amp;lt;path fill-rule=&amp;#34;evenodd&amp;#34; clip-rule=&amp;#34;evenodd&amp;#34; d=&amp;#34;M6.9987 0.333313C3.3187 0.333313 0.332031 3.31998 0.332031 6.99998C0.332031 10.68 3.3187 13.6666 6.9987 13.6666C10.6787 13.6666 13.6654 10.68 13.6654 6.99998C13.6654 3.31998 10.6787 0.333313 6.9987 0.333313ZM6.33203 10.3333V6.33331H7.66536V10.3333H6.33203ZM6.33203 3.66665V4.99998H7.66536V3.66665H6.33203Z&amp;#34; fill=&amp;#34;white&amp;#34;/&amp;gt;&amp;lt;/svg&amp;gt; &amp;lt;div class=&amp;#34;toast-body&amp;#34;&amp;gt; This is a toast description.</description>
-    </item>
-    
-    <item>
-      <title>Tooltips</title>
-      <link>/components/tooltips/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/components/tooltips/</guid>
-      <description>ExampleTooltip componentTooltip sampleLive demo --Tooltip on topTooltip on rightTooltip on bottomTooltip on left&amp;lt;button type=&amp;#34;button&amp;#34; class=&amp;#34;btn btn-primary tooltip-demo&amp;#34; data-bs-toggle=&amp;#34;tooltip&amp;#34; data-bs-placement=&amp;#34;top&amp;#34; title=&amp;#34;Tooltip on top&amp;#34; &amp;gt; Tooltip on top &amp;lt;/button&amp;gt; &amp;lt;button type=&amp;#34;button&amp;#34; class=&amp;#34;btn btn-primary tooltip-demo&amp;#34; data-bs-toggle=&amp;#34;tooltip&amp;#34; data-bs-placement=&amp;#34;right&amp;#34; title=&amp;#34;Tooltip on right&amp;#34; &amp;gt; Tooltip on right &amp;lt;/button&amp;gt; &amp;lt;button type=&amp;#34;button&amp;#34; class=&amp;#34;btn btn-primary tooltip-demo&amp;#34; data-bs-toggle=&amp;#34;tooltip&amp;#34; data-bs-placement=&amp;#34;bottom&amp;#34; title=&amp;#34;Tooltip on bottom&amp;#34; &amp;gt; Tooltip on bottom &amp;lt;/button&amp;gt; &amp;lt;button type=&amp;#34;button&amp;#34; class=&amp;#34;btn btn-primary tooltip-demo&amp;#34; data-bs-toggle=&amp;#34;tooltip&amp;#34; data-bs-placement=&amp;#34;left&amp;#34; title=&amp;#34;Tooltip on left&amp;#34; &amp;gt; Tooltip on left &amp;lt;/button&amp;gt; &amp;lt;!</description>
-    </item>
-    
-  </channel>
-</rss>
