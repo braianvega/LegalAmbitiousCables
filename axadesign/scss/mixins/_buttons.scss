@@ -1,0 +1,38 @@
+@import "../../bootstrap/scss/mixins/buttons";
+
+@mixin button-link-variant(
+  $color,
+  $color-hover: darken($color, 15%),
+  $active-background: $color,
+  $active-border: $color
+) {
+  color: $color;
+  border-color: $color;
+
+  &:hover {
+    color: $color-hover;
+  }
+
+  &:focus,
+  &.focus {
+    color: $color-hover;
+    box-shadow: none;
+  }
+
+  &.disabled,
+  &:disabled {
+    color: $color;
+    background-color: transparent;
+  }
+
+  &:not(:disabled):not(.disabled):active,
+  &:not(:disabled):not(.disabled).active,
+  .show > &.dropdown-toggle {
+    color: $color-hover;
+    box-shadow: none;
+
+    &:focus {
+      box-shadow: none;
+    }
+  }
+}

@@ -1,0 +1,124 @@
+@import "../bootstrap/scss/alert";
+// force text color to dark in light and warning theme
+.alert-light {
+  color: $body-color;
+  .alert-link {
+    color: $body-color;
+  }
+}
+.alert-warning {
+  color: $body-color;
+  .alert-link {
+    color: $body-color;
+  }
+}
+
+//other method disabled -> more css lines generated
+// @each $color, $value in $theme-colors {
+//   .alert-#{$color} {
+//     color: color-yiq($value);
+//   }
+// }
+
+.alert {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 56px;
+  color: #fff;
+  background-clip: padding-box;
+  border-bottom: 1px solid rgba(0, 0, 0, .05);
+  
+  //re-design of buttons in alerts
+
+  .btn {
+    color: $white;
+    background-color: transparent;
+    border-color: $white;
+    border-width: 1px;
+    &:hover,
+    &:focus {
+      background-color: $white;
+      color: $gray-800;
+    }
+  }
+
+  //change button color when using axa colors instead of main bootstrap theme.
+  @each $color, $value in $axa-colors {
+    &.bg-#{$color} {
+      .btn {
+        &:hover,
+        &:focus {
+          color: $value;
+          border-color: $value;
+        }
+      }
+    }
+  }
+}
+
+//re-design of buttons in alerts in bootstrap main theme
+@each $color, $value in $theme-colors {
+  .alert-#{$color} {
+    .btn {
+      @if $value == $white {
+        color: $axa-blue;
+        border-color: $white;
+        border-color: $axa-blue;
+        &:hover,
+        &:focus {
+          color: $white;
+          background-color: $axa-blue;
+          border-color: $white;
+        }
+      } @else {
+        &:hover,
+        &:focus {
+          color: $value;
+          border-color: $value;
+        }
+      }
+    }
+  }
+}
+
+
+.alert-confirmative{
+  background-color: $alert-confirmative-background-color;
+}
+.alert-informative{
+  background-color: $alert-informative-background-color;
+}
+.alert-error{
+  background-color: $alert-error-background-color;
+}
+
+.alert-button{
+  padding: .5rem;
+  font-size: .65rem;
+  font-weight: 100;
+  color: #fff;
+  background-color: transparent;
+  border: 1px solid #fff;
+}
+
+.alert-cls-btn{
+  position: absolute;
+  right: 1vw;
+  cursor: pointer;
+}
+
+.alert-text {
+  padding: $alert-padding-x; // apply to both vertical and horizontal
+  word-wrap: break-word;
+}
+
+#liveAlert {
+  width: 99vw ;
+}
+
+
+
+
+

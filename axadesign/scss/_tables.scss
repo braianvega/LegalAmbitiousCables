@@ -1,0 +1,51 @@
+@import "../bootstrap/scss/tables";
+.table {
+  .header-row {
+    color: $gray-600;
+  }
+  .header-cell {
+    position: relative;
+    padding-right: 26px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    cursor: pointer;
+  }
+  .table-row {
+    &.active {
+      background-color: $data-table-cell-active-color;
+    }
+    &.hover {
+      background-color: $data-table-cell-hover-color;
+    }
+  }
+
+  .table-cols {
+    width: 300px;
+  }
+
+  .table-number-cell {
+    text-align: right;
+  }
+}
+
+table {
+  font-family: $font-family-sans-serif;
+}
+
+.sort-icon {
+  position: absolute;
+  top: 30%;
+  right: 10px;
+  width: 12px;
+  height: 12px;
+}
+
+.data-table-sort-low-icon {
+  background-image: escape-svg($data-table-sort-low-icon-svg);
+}
+
+.data-table-sort-high-icon {
+  background-image: escape-svg($data-table-sort-high-icon-svg);
+}

@@ -1,0 +1,22 @@
+@import "../../bootstrap/scss/forms/form-check";
+
+// No space between feedback messages and input elements when checkbox or radio
+@each $state, $data in $form-validation-states {
+  .form-check {
+    .#{$state}-feedback {
+      margin-top: $form-feedback-radio-check-margin-top;
+    }
+  }
+}
+
+.form-switch {
+  .form-check-input {
+    &[disabled],
+    &:disabled {
+      &:not(:checked) {
+        background-color: $gray-200;
+        opacity: 1;
+      }
+    }
+  }
+}

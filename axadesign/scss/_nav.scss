@@ -1,0 +1,125 @@
+@import "../bootstrap/scss/nav";
+.nav {
+  //remove border-color on nav-link when focus/hover on nav
+  &:hover,
+  &:focus {
+    .nav-link.active,
+    .active > .nav-link {
+      border-color: transparent;
+    }
+    //re-enable border-color on active nav-link when focus/hover on nav and focus/hover also on active nav-link
+    .nav-link.active:hover,
+    .active > .nav-link:hover,
+    .nav-link.active:focus,
+    .active > .nav-link:focus {
+      &:not(.reverse-tab){
+        border-color: $nav-nav-link-active-border-color;
+      }
+    }
+  }
+  .nav-link {
+    text-align: center;
+    border-color: transparent;
+    border-style: solid;
+    border-width: $nav-nav-link-border-width;
+    outline-color: transparent;
+    &:hover,
+    &:focus {
+      &:not(.reverse-tab){
+        border-color: $nav-nav-link-active-border-color;
+      }
+    }
+  }
+  .show > .nav-link,
+  .active > .nav-link,
+  .nav-link.show,
+  .nav-link.active {
+    &:not(.reverse-tab){
+      background-color: transparent;
+      border-color: $nav-nav-link-active-border-color;
+    }
+  }
+
+  &.flex-column {
+    .nav-link {
+      padding: $nav-flex-column-nav-link-padding-y $nav-flex-column-nav-link-padding-right $nav-flex-column-nav-link-padding-y $nav-flex-column-nav-link-padding-left;
+      color: $body-color;
+      text-align: inherit;
+      letter-spacing: normal;
+      border-width: 0;
+      &.disabled {
+        color: $nav-link-disabled-color;
+      }
+      &:hover,
+      &:focus {
+        background-color: $nav-flex-column-nav-link-hover-bg;
+      }
+    }
+
+    .show > .nav-link,
+    .active > .nav-link,
+    .nav-link.show,
+    .nav-link.active {
+      font-weight: $font-weight-bolder;
+      color: $axa-blue;
+      background-color: $nav-flex-column-nav-link-active-bg;
+    }
+
+    //nav-link design in scrollspy
+    &.nav-scrollspy {
+      .nav-link {
+        background-color: transparent;
+        &:hover,
+        &:focus {
+          font-weight: $font-weight-normal;
+          color: $axa-blue;
+          background-color: transparent;
+        }
+      }
+    }
+  }
+}
+
+.flex-column {
+  //nav-link design in scrollspy
+  &.nav-scrollspy {
+    .show > .nav-link,
+    .active > .nav-link,
+    .nav-link.show,
+    .nav-link.active {
+      font-weight: $font-weight-bolder;
+      border-color: $axa-blue;
+    }
+
+    .nav-link {
+      padding: $nav-link-scrollspy-padding;
+      font-weight: $font-weight-normal;
+      border-color: $gray-400;
+      border-left-width: 2px;
+      &:hover,
+      &:focus {
+        font-weight: $font-weight-normal;
+      }
+    }
+    &:hover,
+    &:focus {
+      //re-enable border on active nav-link when focus/hover on nav-bar-nav and focus/hover also on active nav-link
+      .nav-link.active:hover,
+      .active > .nav-link:hover {
+        font-weight: $font-weight-bolder;
+        color: $axa-blue;
+        border-color: $axa-blue;
+      }
+    }
+  }
+}
+
+#dropdown-menu-documentation {
+
+.nav-link.active {
+	font-weight: $font-weight-bolder;
+	color: $axa-blue;
+	background-color: $nav-flex-column-nav-link-active-bg;
+  }
+
+}

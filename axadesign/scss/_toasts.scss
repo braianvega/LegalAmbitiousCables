@@ -1,0 +1,30 @@
+@import "../bootstrap/scss/toasts";
+.toast-header{
+  position: relative;
+  height: 56px;
+  color: #fff;
+}
+.toast-confirmative{
+  background-color: $toast-confirmative-background-color;
+}
+.toast-informative{
+  background-color: $toast-informative-background-color;
+}
+.toast-error{
+  background-color: $toast-error-background-color;
+}
+
+.toast-button{
+  padding: .5rem;
+  font-size: .65rem;
+  font-weight: 100;
+  color: #fff;
+  background-color: transparent;
+  border: 1px solid #fff;
+}
+
+.toast-cls-btn{
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+}

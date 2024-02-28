@@ -1,0 +1,25 @@
+@import "../../bootstrap/scss/forms/form-range";
+
+.form-range {
+  &::-webkit-slider-thumb {
+    &:active {
+      @include box-shadow($form-range-thumb-box-select);
+    }
+  }
+
+  &::-moz-range-thumb {
+    &:active {
+      @include box-shadow($form-range-thumb-box-select);
+    }
+  }
+
+  &:disabled {
+    &::-webkit-slider-thumb {
+      @include box-shadow($form-range-thumb-disabled-box-shadow);
+    }
+
+    &::-moz-range-thumb {
+      @include box-shadow($form-range-thumb-disabled-box-shadow);
+    }
+  }
+}

@@ -1,0 +1,14 @@
+@import "../bootstrap/scss/popover";
+
+.popover-header {
+  @include font-size($popover-header-font-size);
+  line-height: $popover-header-line-height;
+  letter-spacing: $popover-header-letter-spacing;
+  border-bottom: $popover-header-border-width solid $popover-header-border-color;
+}
+
+// update arrow color in gray when popover with header gray
+.bs-popover-bottom > .popover-arrow::after,
+.bs-popover-auto[data-popper-placement^="bottom"] > .popover-arrow::after {
+  border-bottom-color: $popover-header-bg;
+}

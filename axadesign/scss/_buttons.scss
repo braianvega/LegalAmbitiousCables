@@ -1,0 +1,110 @@
+@import "../bootstrap/scss/buttons";
+.btn {
+  text-transform: uppercase;
+  letter-spacing: $letter-spacing;
+
+  &:disabled,
+  &.disabled {
+    color: $gray-400;
+  }
+}
+
+.btn-link {
+  font-weight: $font-weight-semibold;
+  line-height: 1.125rem;
+  &:focus,
+  &.focus {
+    box-shadow: none;
+  }
+
+  &:active,
+  &.active {
+    box-shadow: none;
+  }
+}
+
+//not used but can be used with btn-link-secondary only (arrow in sienna color only)
+.btn-link-icon {
+  background-image: escape-svg($axa-icon-link-arrow);
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+
+@each $color, $value in $theme-colors {
+  .btn-link-#{$color} {
+    @include button-link-variant($value);
+
+    padding: 0;
+
+    &:disabled,
+    &.disabled {
+      color: $gray-400;
+    }
+  }
+}
+
+@each $color, $value in $theme-colors {
+  .btn-outline-#{$color} {
+    //add colored border
+    box-shadow: inset 0 0 0 $btn-outline-border-width $value;
+    &:disabled,
+    &.disabled {
+      border-color: $gray-200;
+      box-shadow: inset 0 0 0 $btn-outline-border-width $gray-200;
+    }
+
+    // &:not(:disabled):not(.disabled):active,
+    // &:not(:disabled):not(.disabled).active {
+    //   box-shadow: inset 5em 5em 5em 5em rgba($white, .2);
+    // }
+
+    &:focus,
+    &.focus {
+      // box-shadow: inset 0 0 0 $btn-outline-border-width $value, 0 0 0 $btn-outline-focus-width rgba($value, .5);
+      @if tint-color($value, 20%) == $white {
+        // we are near white colors (light theme) -> darken the shadow around
+        // box-shadow: inset 5em 5em 5em 5em rgba($white, .1), 0 0 0 .2rem darken($value, 30%);
+        box-shadow: inset 0 0 0 $btn-outline-border-width $value, 0 0 0 $btn-outline-focus-width shade-color($value, 30%);
+      } @else {
+        box-shadow: inset 0 0 0 $btn-outline-border-width $value, 0 0 0 $btn-outline-focus-width rgba($value, .5);
+      }
+
+    }
+  }
+}
+@each $color, $value in $theme-colors {
+  .btn-#{$color} {
+    &:not(:disabled):not(.disabled):hover,
+    &:not(:disabled):not(.disabled).hover {
+      @if tint-color($value, 20%) == $white {
+        // we are near white colors (light theme) -> darken the shadow
+        box-shadow: inset 5em 5em 5em 5em shade-color($value, 7%);
+      } @else {
+        box-shadow: inset 5em 5em 5em 5em rgba($white, .1);
+      }
+    }
+
+    &:not(:disabled):not(.disabled):active,
+    &:not(:disabled):not(.disabled).active {
+      box-shadow: inset 5em 5em 5em 5em rgba($white, .2);
+    }
+
+    &:not(:disabled):not(.disabled):focus,
+    &:not(:disabled):not(.disabled).focus {
+      @if tint-color($value, 20%) == $white {
+        // we are near white colors (light theme) -> darken the shadow around
+        box-shadow: inset 5em 5em 5em 5em rgba($white, .1), 0 0 0 .2rem shade-color($value, 30%);
+      } @else {
+        box-shadow: inset 5em 5em 5em 5em rgba($white, .1), 0 0 0 .2rem rgba($value, .5);
+      }
+      border-style: solid;
+    }
+
+    &:disabled,
+    &.disabled,
+    fieldset:disabled & {
+      background-color: $gray-200;
+      box-shadow: $btn-box-shadow;
+    }
+  }
+}

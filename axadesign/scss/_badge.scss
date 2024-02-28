@@ -1,0 +1,12 @@
+@import "../bootstrap/scss/badge";
+.badge {
+  line-height: 1.125rem;
+  text-transform: uppercase;
+  letter-spacing: $letter-spacing;
+}
+
+.badge-sm {
+  padding: $badge-sm-padding-y $badge-sm-padding-x;
+  line-height: 1rem;
+  @include font-size($badge-sm-font-size);
+}

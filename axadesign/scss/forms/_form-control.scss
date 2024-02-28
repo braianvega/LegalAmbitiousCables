@@ -1,0 +1,22 @@
+@import "../../bootstrap/scss/forms/form-control";
+
+.form-control-lg {
+  line-height: $input-line-height-lg;
+}
+
+.form-control-sm {
+  line-height: $input-line-height-sm;
+}
+.form-label {
+  font-size: .85em;
+  font-weight: 700;
+}
+
+.custom-file-input {
+  &::file-selector-button{
+    height: 40px;
+    font-size: .675em;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+}

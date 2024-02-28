@@ -1,0 +1,24 @@
+@import "../bootstrap/scss/accordion";
+
+//
+// Base styles
+//
+
+.accordion-button {
+  @include font-size($accordion-button-font-size);
+  &:hover{
+    background-color: $accordination-button-hover-color;
+  }
+  &:active,
+  &.active {
+    &:focus {
+      @include box-shadow($accordion-button-focus-box-shadow);
+    }
+  }
+
+  // Accordion icon
+  &::after {
+    background-position: center;
+  }
+}
+

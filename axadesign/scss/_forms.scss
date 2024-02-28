@@ -1,0 +1,41 @@
+@import "./forms/labels";
+@import "./forms/form-text";
+@import "./forms/form-control";
+@import "./forms/form-select";
+@import "./forms/form-check";
+@import "./forms/form-range";
+@import "./forms/floating-labels";
+@import "./forms/input-group";
+@import "./forms/validation";
+
+// .custom-select {
+//   &.form-control-lg {
+//     @include font-size($input-font-size-lg);
+//     padding-left: $custom-select-padding-left-lg;
+//   }
+//   &.form-control-sm {
+//     @include font-size($input-font-size-sm);
+//     padding-left: $custom-select-padding-left-sm;
+//   }
+// }
+
+// .form-row {
+//   margin-bottom: $form-group-margin-bottom;
+// }
+
+// .form-control {
+//   &:disabled,
+//   &[readonly] {
+//     color: $input-disabled-color;
+//   }
+// }
+
+// No space between feedback messages and input elements when checkbox or radio
+@each $state, $data in $form-validation-states {
+  .custom-control{
+    .#{$state}-feedback {
+      margin-top: $form-feedback-radio-check-margin-top;
+    }
+  }
+}
+
