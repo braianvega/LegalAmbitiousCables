@@ -1,4 +1,7 @@
 main {
   
 }
-
+.Header{
+  align-items: center;
+  text-align: center;
+}

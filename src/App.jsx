@@ -1,11 +1,9 @@
-import './App.css'
+import "./App.css";
 
 export default function App() {
   return (
-    <main>
-      React ⚛️ + Vite ⚡ + Replit
-      <nav >
-      </nav>
-    </main>
-  )
+    <>
+      es un texto de prueba
+    </>
+  );
 }
