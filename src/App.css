@@ -1,7 +1,43 @@
 main {
-  
+  display: flex;
 }
-.Header{
+
+header{
   align-items: center;
   text-align: center;
+  justify-content: center;
+  height: 15%;
+  width: 100%;
 }
+aside{
+  align-items: center;
+  text-align: center;
+  width: 20%;
+  height: 100rem;
+  
+}
+
+.PrincipalContent{
+  display: flex;
+}
+
+.contentFlex{
+  display: flex;
+}
+
+.tittle{
+  width: 100%;
+  text-align: center;
+}
+
+.buttonContent{
+  background-color: #000093;
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  border-radius:10px;
+  border: none;
+  margin-block-start: 4%;
+  color: white;
+}
+

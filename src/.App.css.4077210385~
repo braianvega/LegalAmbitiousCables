@@ -1,0 +1,15 @@
+main {
+  display: flex;
+}
+
+
+header{
+  align-items: center;
+  text-align: center;
+  
+}
+aside{
+  align-items: center;
+  text-align: center;
+  width: 12.5%;
+}

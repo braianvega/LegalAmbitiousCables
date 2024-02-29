@@ -1,9 +1,12 @@
 import "./App.css";
+import HeaderComponent from "./HeaderComponent";
+import AsideComponent from "./AsideComponent";
 
 export default function App() {
   return (
-    <>
-      es un texto de prueba
-    </>
+    <div className="PrincipalContent">
+      <AsideComponent/>
+      <HeaderComponent />
+    </div>
   );
 }
